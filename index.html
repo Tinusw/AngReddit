@@ -1,16 +1,45 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <title>Angit - Angular Meets Rails</title>
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
-    <script src="app.js"></script>
+
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- CSS -->
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom -->
+
+    <!-- Scripts -->
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
   <body ng-app="angitNews" ng-controller="MainCtrl">
     <div>
       {{test}}
     </div>
 
-    <div ng-repeat="post in posts">
-      {{post}}
+    <div ng-repeat="post in posts | orderBy: '-upvotes'">
+      {{post.title}} - votes: {{post.upvotes}}
     </div>
+
+    <button ng-click="addPost()">Post</button>
+
+    <!-- ============================= -->
+    <!-- All your JavaScript comes now -->
+    <!-- ============================= -->
+    <!-- Angular -->
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
+    <!-- Custom  -->
+    <script src="app.js"></script>
   </body>
 </html>
