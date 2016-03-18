@@ -1,7 +1,8 @@
 // Require Angular
-var app = angular.module('angitNews', ['ui.router'])
+var app = angular.module('angitNews', ['ui.router']);
+
   // Configuring ui-router 
-  .config([
+  app.config([
   	'$stateProvider',
   	'$urlRouterProvider',
   	function($stateProvider, $urlRouterProvider){
@@ -21,12 +22,18 @@ var app = angular.module('angitNews', ['ui.router'])
 	  	  });
 
 	  	$urlRouterProvider.otherwise('home');
-	  }])
+	  }]);
   
   // Configuring our Factory service 
-  .factory('posts',[function(){
+  app.factory('posts',[function(){
   	var x = {
-  		posts: []
+  		posts: [
+  		{title: 'post 1', link: 'www.google.com', upvotes: 5},
+		  {title: 'post 2', link: 'www.google.com', upvotes: 2},
+		  {title: 'post 3', link: 'www.google.com', upvotes: 15},
+		  {title: 'post 4', link: 'www.google.com', upvotes: 9},
+		  {title: 'post 5', link: 'www.google.com', upvotes: 4}
+		  ]
   	};
   	return x;
   }]);
@@ -34,14 +41,6 @@ var app = angular.module('angitNews', ['ui.router'])
 // Controller
 app.controller('MainCtrl', ['$scope','posts',function($scope, posts){
   $scope.posts = posts.posts;
-
-  $scope.posts =[
-  {title: 'post 1', link: 'www.google.com', upvotes: 5},
-  {title: 'post 2', link: 'www.google.com', upvotes: 2},
-  {title: 'post 3', link: 'www.google.com', upvotes: 15},
-  {title: 'post 4', link: 'www.google.com', upvotes: 9},
-  {title: 'post 5', link: 'www.google.com', upvotes: 4}
-  ];
 
   $scope.addPost = function(){
   	if(!$scope.title || $scope.title === '') { return;}
@@ -65,7 +64,18 @@ app.controller('MainCtrl', ['$scope','posts',function($scope, posts){
 
 // Posts Controller
 app.controller('PostsCtrl', ['$scope', '$stateParams', 'posts', function($scope, $stateParams, posts){
-	  //retrieve id from URL and load correct post 
-	  $scope.post = posts.posts($stateParams.id);
+ 
+	//retrieve id from URL and load correct post 
+  $scope.post = posts.posts($stateParams.id);
 
+  // create comment 
+  $scope.addComment = function(){
+  	if($scope.body === '') { return; }
+  	$scope.post.comment.push({
+  		body: $scope.body,
+  		author: 'user',
+  		upvotes: 0
+  	});
+  	$scope.body = '';
+  };
 }]);
