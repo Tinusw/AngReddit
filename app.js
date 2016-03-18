@@ -14,6 +14,7 @@ app.controller('MainCtrl', ['$scope',function($scope){
   ];
 
   $scope.addPost = function(){
-  	$scope.posts.push({title: 'motherfucker', upvotes: 0});
+  	$scope.posts.push({title: $scope.title, upvotes: 0});
+  	$scope.title= '';
   };
 }]);

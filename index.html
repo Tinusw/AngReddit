@@ -23,6 +23,13 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+  <form class="form-inline" ng-submit="addPost()">
+      <input type="text" class="form-control" placeholder="New title..." ng-model="title">
+      <button class="btn btn-default" type="submit"> 
+        Post 
+      </button>
+  </form>
+
   <body ng-app="angitNews" ng-controller="MainCtrl">
     <div>
       {{test}}
@@ -33,6 +40,8 @@
     </div>
 
     <button ng-click="addPost()">Post</button>
+
+    
 
     <!-- ============================= -->
     <!-- All your JavaScript comes now -->
