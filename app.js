@@ -1,9 +1,15 @@
 // Require Angular
-var app = angular.module('angitNews', []);
+var app = angular.module('angitNews', [])
+  .factory('posts',[function(){
+  	var x = {
+  		posts: []
+  	};
+  	return x;
+  }]);
 
 // Controller
-app.controller('MainCtrl', ['$scope',function($scope){
-  $scope.test = 'Hello world!';
+app.controller('MainCtrl', ['$scope','posts',function($scope, posts){
+  $scope.posts = posts.posts;
 
   $scope.posts =[
   {title: 'post 1', link: 'www.google.com', upvotes: 5},
