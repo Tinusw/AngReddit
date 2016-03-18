@@ -10,7 +10,7 @@ var app = angular.module('angitNews', ['ui.router']);
 	  	  	controller: 'MainCtrl'
 	  	  })
 	  	  .state('posts', {
-	  	  	url: '/posts/{id}',
+	  	  	url: '/posts/:id',
 	  	  	templateUrl: '/posts.html',
 	  	  	controller: 'PostsCtrl'
 	  	  });
