@@ -1,8 +1,14 @@
 // Require Angular
 var app = angular.module('angitNews', [])
-  .factory('posts',[function(){
+  app.factory('posts',[function(){
   	var x = {
-  		posts: []
+  		posts: [
+  		{title: 'post 1', link: 'www.google.com', upvotes: 5},
+      {title: 'post 2', link: 'www.google.com', upvotes: 2},
+      {title: 'post 3', link: 'www.google.com', upvotes: 15},
+      {title: 'post 4', link: 'www.google.com', upvotes: 9},
+      {title: 'AppFactoryTest2', link: 'www.google.com', upvotes: 9},
+      {title: 'post 5', link: 'www.google.com', upvotes: 4}]
   	};
   	return x;
   }]);
@@ -10,14 +16,6 @@ var app = angular.module('angitNews', [])
 // Controller
 app.controller('MainCtrl', ['$scope','posts',function($scope, posts){
   $scope.posts = posts.posts;
-
-  $scope.posts =[
-  {title: 'post 1', link: 'www.google.com', upvotes: 5},
-  {title: 'post 2', link: 'www.google.com', upvotes: 2},
-  {title: 'post 3', link: 'www.google.com', upvotes: 15},
-  {title: 'post 4', link: 'www.google.com', upvotes: 9},
-  {title: 'post 5', link: 'www.google.com', upvotes: 4}
-  ];
 
   $scope.addPost = function(){
   	if(!$scope.title || $scope.title === '') { return;}
