@@ -24,29 +24,39 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body ng-app="angitNews" ng-controller="MainCtrl">
-  <div class="col-md-6 col-md-offset-3" id="app">
-    <div class="header">
-      <h3> Angit! Reddit but made with Angular! </h3>
-    </div>
+  <body ng-app="angitNews">
+    <div class="col-md-6 col-md-offset-3" id="app">
+      <!-- ui-view for home.html template! -->
+      <ui-view></ui-view>
+      
 
-    <!-- Input form -->
-    <form class="form-inline" ng-submit="addPost()">
-      <input type="text" class="form-control" placeholder="New title..." ng-model="title">
-     
-      <input type="text" class="form-control" placeholder="Share a link..." ng-model="link">
+      
 
-      <button class="btn btn-default" type="submit"> 
-        Post 
-      </button>
-    </form>
+      
 
-    <!-- Display Form -->
-    <form class="form" ng-repeat="post in posts | orderBy: '-upvotes'">
-      <label class="label label-success">
-        <label class="glyphicon glyphicon-thumbs-up" ng-click="incrementUpvotes(post)">
+      <!-- inline template -->
+      <script type="text/ng-template" id="/home.html">
+        <div class="header">
+          <h3> Angit! Reddit but made with Angular! </h3>
+        </div>
+
+        <!-- Input form -->
+      <form class="form-inline" ng-submit="addPost()">
+        <input type="text" class="form-control" placeholder="New title..." ng-model="title">
+       
+        <input type="text" class="form-control" placeholder="Share a link..." ng-model="link">
+
+        <button class="btn btn-default" type="submit"> 
+          Post 
+        </button>
+      </form>
+
+      <!-- Display Form -->
+      <form class="form" ng-repeat="post in posts | orderBy: '-upvotes'">
+        <label class="label label-success">
+          <label class="glyphicon glyphicon-thumbs-up" ng-click="incrementUpvotes(post)">
+          </label>
         </label>
-      </label>
 
         <label class="label label-info">        
           <a ng-show="post.link" href="{{post.link}}">
@@ -61,13 +71,16 @@
         <label class="label label-info">
           {{post.upvotes}}
         </label>
-    </form>
-  </div>
+      </form>
+
+      <!-- Rest of the template -->
+      </script>
     <!-- ============================= -->
     <!-- All your JavaScript comes now -->
     <!-- ============================= -->
     <!-- Angular -->
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.10/angular-ui-router.js"></script>
     <!-- Custom  -->
     <script src="app.js"></script>
   </body>
