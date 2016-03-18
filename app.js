@@ -1,5 +1,5 @@
 // Require Angular
-var app = angular.module('angitNews', [])
+var app = angular.module('angitNews', ['ui.router'])
   app.factory('posts',[function(){
   	var x = {
   		posts: [
