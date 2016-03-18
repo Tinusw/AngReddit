@@ -1,1 +1,63 @@
-var app=angular.module("angitNews",[]);app.config(["$stateProvider","$urlRouterProvider",function(t,o){t.state("home",{url:"/home",templateUrl:"/home.html",controller:"MainCtrl"}),o.otherwise("home")}]),app.factory("posts",[function(){var t={posts:[{title:"post 1",link:"www.google.com",upvotes:5},{title:"post 2",link:"www.google.com",upvotes:2},{title:"post 3",link:"www.google.com",upvotes:15},{title:"post 4",link:"www.google.com",upvotes:9},{title:"AppFactoryTest2",link:"www.google.com",upvotes:9},{title:"post 5",link:"www.google.com",upvotes:4}]};return t}]),app.controller("MainCtrl",["$scope","posts",function(t,o){t.posts=o.posts,t.addPost=function(){t.title&&""!==t.title&&(t.posts.push({title:t.title,link:t.link,upvotes:0}),t.title="",t.link="")},t.incrementUpvotes=function(t){t.upvotes+=1}}]);
+// Require Angular
+var app = angular.module('angitNews', ['ui.router']);
+  // config ui-router
+  app.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider){
+
+  	  $stateProvider
+	  	  .state('home', {
+	  	  	url: '/home',
+	  	  	templateUrl: '/home.html',
+	  	  	controller: 'MainCtrl'
+	  	  })
+	  	  .state('posts', {
+	  	  	url: '/posts/{id}',
+	  	  	templateUrl: '/posts.html',
+	  	  	controller: 'PostsCtrl'
+	  	  });
+
+  	  $urlRouterProvider.otherwise('home');
+  }]);
+
+  // Factory Service
+  app.factory('posts',[function(){
+  	var x = {
+  		posts: [
+  		{title: 'post 1', link: 'www.google.com', upvotes: 5},
+      {title: 'post 2', link: 'www.google.com', upvotes: 2},
+      {title: 'post 3', link: 'www.google.com', upvotes: 15},
+      {title: 'post 4', link: 'www.google.com', upvotes: 9},
+      {title: 'AppFactoryTest2', link: 'www.google.com', upvotes: 9},
+      {title: 'post 5', link: 'www.google.com', upvotes: 4}]
+  	};
+  	return x;
+  }]);
+
+// Controller
+app.controller('MainCtrl', ['$scope','posts',function($scope, posts){
+  $scope.posts = posts.posts;
+
+  $scope.addPost = function(){
+  	if(!$scope.title || $scope.title === '') { return;}
+  	$scope.posts.push({
+  		title: $scope.title,
+  		link: $scope.link,
+  		upvotes: 0,
+  		comments: [
+  		  {author: 'Joe', body: 'Cool shit', upvotes: 0},
+  		  {author: 'Joe', body: 'Cool shit', upvotes: 0}
+  		  ]
+  	});
+  	$scope.title= '';
+  	$scope.link = '';
+  };
+
+	$scope.incrementUpvotes = function(post) {
+	  post.upvotes += 1;
+	};
+}]);
+
+// Post Controller
+app.controller('PostsCtrl',['$scope', '$stateParams', 'posts',function($scope, $stateParams, posts){
+
+}]);
+
