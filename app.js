@@ -1,5 +1,18 @@
 // Require Angular
-var app = angular.module('angitNews', ['ui.router'])
+var app = angular.module('angitNews', ['ui.router']);
+  // config ui-router
+  app.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider){
+
+  	  $stateProvider.state('home', {
+  	  	url: '/home',
+  	  	templateUrl: '/home.html',
+  	  	controller: 'MainCtrl'
+  	  });
+
+  	  $urlRouterProvider.otherwise('home');
+  }]);
+
+  // Factory Service
   app.factory('posts',[function(){
   	var x = {
   		posts: [
