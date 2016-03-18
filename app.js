@@ -1,5 +1,6 @@
 // Require Angular
 var app = angular.module('angitNews', ['ui.router']);
+
   // config ui-router
   app.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider){
 
@@ -32,7 +33,7 @@ var app = angular.module('angitNews', ['ui.router']);
   	};
   	return x;
   }]);
-
+  
 // Controller
 app.controller('MainCtrl', ['$scope','posts',function($scope, posts){
   $scope.posts = posts.posts;
@@ -57,7 +58,7 @@ app.controller('MainCtrl', ['$scope','posts',function($scope, posts){
 	};
 }]);
 
-app.controller('PostsCtrl', ['#scope', '$stateParams', 'posts', function($scope, $stateParams, posts){
-	$scope.post = posts.posts($stateParams.id);
+app.controller('PostsCtrl', ['$scope', '$stateParams', 'posts', function($scope, $stateParams, posts){
+	$scope.post = posts.posts[$stateParams.id];
 
 }]);

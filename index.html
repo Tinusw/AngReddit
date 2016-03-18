@@ -34,14 +34,14 @@
 
       
 
-      <!-- inline template -->
+      <!-- inline template for /home -->
       <script type="text/ng-template" id="/home.html">
         <div class="header">
           <h3> Angit! Reddit but made with Angular! </h3>
         </div>
 
         <!-- Input form -->
-      <form class="form-inline" ng-submit="addPost()">
+        <form class="form-inline" ng-submit="addPost()">
         <input type="text" class="form-control" placeholder="New title..." ng-model="title">
        
         <input type="text" class="form-control" placeholder="Share a link..." ng-model="link">
@@ -49,10 +49,10 @@
         <button class="btn btn-default" type="submit"> 
           Post 
         </button>
-      </form>
+        </form>
 
-      <!-- Display Form -->
-      <form class="form" ng-repeat="post in posts | orderBy: '-upvotes'">
+        <!-- Display Form -->
+        <form class="form" ng-repeat="post in posts | orderBy: '-upvotes'">
         <label class="label label-success">
           <label class="glyphicon glyphicon-thumbs-up" ng-click="incrementUpvotes(post)">
           </label>
@@ -71,10 +71,36 @@
         <label class="label label-info">
           {{post.upvotes}}
         </label>
-      </form>
 
-      <!-- Rest of the template -->
+        <span>
+          <a href="#/posts/{{$index}}">Comments</a>
+        </span>
+        </form>
       </script>
+
+      <!-- inline template for /posts -->
+      <script type="text/ng-template" id="/posts.html">
+        <div class="page-header">
+          <h3>
+            <a ng-show="post.link" href="{{post.link}}">
+              {{post.title}}
+            </a>
+            <span ng-hide="post.link">
+              {{post.title}}
+            </span>
+          </h3>
+        </div>
+
+        <div ng-repeat="comment in post.comments | orderBy:'-upvotes'">
+          <span class="glyphicon glyphicon-thumbs-up" ng-click="incrementUpvotes(comment)"></span>
+          {{comment.upvotes}} - by {{comment.author}}
+          <span>
+            {{comment.body}}
+          </span>
+        </div>
+      </script>
+
+
     <!-- ============================= -->
     <!-- All your JavaScript comes now -->
     <!-- ============================= -->
