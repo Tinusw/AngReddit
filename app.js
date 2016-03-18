@@ -12,6 +12,13 @@ var app = angular.module('angitNews', ['ui.router'])
 	  	  	templateUrl: '/home.html',
 	  	  	controller: 'MainCtrl'
 	  	  });
+      
+      $stateProvider
+	  	  .state('posts', {
+	  	  	url: '/posts/{id}',
+	  	  	templateUrl: '/posts.html',
+	  	  	controller: 'PostsCtrl'
+	  	  });
 
 	  	$urlRouterProvider.otherwise('home');
 	  }])
@@ -41,7 +48,11 @@ app.controller('MainCtrl', ['$scope','posts',function($scope, posts){
   	$scope.posts.push({
   		title: $scope.title,
   		link: $scope.link,
-  		upvotes: 0
+  		upvotes: 0,
+  		comments: [
+  		  {author: 'John', body: 'Cool..I guess', upvotes: 0},
+  		  {author: 'Jan', body: 'ugh...ok', upvotes: 0}
+  		]
   	});
   	$scope.title= '';
   	$scope.link = '';
@@ -50,4 +61,11 @@ app.controller('MainCtrl', ['$scope','posts',function($scope, posts){
 	$scope.incrementUpvotes = function(post) {
 	  post.upvotes += 1;
 	};
+}]);
+
+// Posts Controller
+app.controller('PostsCtrl', ['$scope', '$stateParams', 'posts', function($scope, $stateParams, posts){
+	  //retrieve id from URL and load correct post 
+	  $scope.post = posts.posts($stateParams.id);
+
 }]);
