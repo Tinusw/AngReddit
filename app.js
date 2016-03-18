@@ -1,15 +1,15 @@
-// require Angular Module 
-
+// Require Angular
 var app = angular.module('angitNews', []);
 
-app.controller('MainCtrl', ['$scope', function($scope){
-		$scope.test = "hello World";
+// Controller
+app.controller('MainCtrl', ['$scope',function($scope){
+  $scope.test = 'Hello world!';
 
-		$scope.posts = [
-		'post1',
-		'post2',
-		'post3',
-		'post4',
-		'post5',
-		];
+  $scope.posts =[
+  'post 1',
+  'post 2',
+  'post 3',
+  'post 4',
+  'yus',
+  ];
 }]);
