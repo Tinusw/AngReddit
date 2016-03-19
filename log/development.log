@@ -170,3 +170,9 @@ Started GET "/assets/application.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e464
 
 
 Started GET "/assets/app.self-609ad32e5a7f0a49fe6a2ed8956cc855410ff04ca24fe2000ca0d5f68670f80b.js?body=1" for ::1 at 2016-03-19 02:14:20 +0100
+
+
+Started GET "/" for ::1 at 2016-03-19 02:18:15 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (362.1ms)
+Completed 200 OK in 445ms (Views: 444.9ms | ActiveRecord: 0.0ms)
