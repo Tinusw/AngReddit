@@ -176,3 +176,33 @@ Started GET "/" for ::1 at 2016-03-19 02:18:15 +0100
 Processing by ApplicationController#angular as HTML
   Rendered layouts/application.html.erb within layouts/application (362.1ms)
 Completed 200 OK in 445ms (Views: 444.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-03-19 02:26:18 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (1166.6ms)
+Completed 200 OK in 1215ms (Views: 1214.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-19 02:26:20 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-19 02:26:20 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-19 02:26:20 +0100
+
+
+Started GET "/assets/app.self-609ad32e5a7f0a49fe6a2ed8956cc855410ff04ca24fe2000ca0d5f68670f80b.js?body=1" for ::1 at 2016-03-19 02:26:20 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-19 02:26:20 +0100
+
+
+Started GET "/assets/min/application-min.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-03-19 02:26:20 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-19 02:26:20 +0100
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-19 02:26:20 +0100
