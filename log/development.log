@@ -382,3 +382,34 @@ Consult the Rails upgrade guide for details.):
   Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
   Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
   Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (115.1ms)
+
+
+Started GET "/" for ::1 at 2016-03-21 16:17:38 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (310.3ms)
+Completed 200 OK in 326ms (Views: 325.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 16:17:39 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 16:17:39 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 16:17:39 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 16:17:39 +0100
+
+
+Started GET "/assets/app.self-5a77f0a887b38006935cf1c6daceee8e5689a85f0a4d90d6ec8972cd895b107d.js?body=1" for ::1 at 2016-03-21 16:17:39 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 16:17:39 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 16:17:39 +0100
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-21 16:17:39 +0100
