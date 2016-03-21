@@ -58,6 +58,8 @@ app.controller('MainCtrl', ['$scope','posts',function($scope, posts){
 	};
 }]);
 
+// Posts Controller
+
 app.controller('PostsCtrl', ['$scope', '$stateParams', 'posts', function($scope, $stateParams, posts){
 	$scope.post = posts.posts[$stateParams.id];
 
