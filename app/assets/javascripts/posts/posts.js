@@ -1,4 +1,4 @@
-var app = angular.module('angitNews')
+var app = angular.module('angitNews');
 
 // Factory Service
   app.factory('posts',['$http', function($http){
@@ -8,15 +8,15 @@ var app = angular.module('angitNews')
 
     x.getAll = function(){
       return $http.get('/posts.json').success(function(data){
-        angular.copy(data, post);
-    });
-  };
+          angular.copy(data, x.posts);
+      });
+    };
 
     x.create = function(post) {
       return $http.post('/posts.json', post).success(function(data){
           x.posts.push(data);
-    });
-  };
+      });
+    };
   	return x;
   }
 ]);

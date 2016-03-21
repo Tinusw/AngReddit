@@ -19,7 +19,12 @@ class PostsController < ApplicationController
   end
 
   private
+
   def post_params
-    params.require(:post).permit(:link, :title)
+    params.require(:post).permit(:link,:title)
+  end
+
+  def comment_params
+    params.require(:comment).permit(:body)
   end
 end
