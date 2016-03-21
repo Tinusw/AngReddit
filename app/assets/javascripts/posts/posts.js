@@ -29,7 +29,7 @@ var app = angular.module('angitNews');
     
     // get a post with comments
     x.get = function(id) {
-      return $http.get('/posts' + id + '.json').then(function(res){
+      return $http.get('/posts/' + id + '.json').then(function(res){
         return res.data;
       });
     };
