@@ -533,3 +533,1193 @@ Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21
 
 
 Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-21 16:38:58 +0100
+
+
+Started GET "/" for ::1 at 2016-03-21 16:41:53 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (219.9ms)
+Completed 200 OK in 228ms (Views: 228.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 16:41:53 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 16:41:53 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 16:41:53 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 16:41:53 +0100
+
+
+Started GET "/assets/app.self-8aae0e76ce72e05db16e960cc9ff7265ce8e8d9f14394b82ae03a5d0c8e0cf71.js?body=1" for ::1 at 2016-03-21 16:41:53 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 16:41:53 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 16:41:53 +0100
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-21 16:41:54 +0100
+
+
+Started GET "/" for ::1 at 2016-03-21 16:43:21 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (497.8ms)
+Completed 200 OK in 530ms (Views: 519.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 16:43:22 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 16:43:22 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 16:43:22 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 16:43:22 +0100
+
+
+Started GET "/assets/app.self-8aae0e76ce72e05db16e960cc9ff7265ce8e8d9f14394b82ae03a5d0c8e0cf71.js?body=1" for ::1 at 2016-03-21 16:43:22 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 16:43:22 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 16:43:22 +0100
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-21 16:43:22 +0100
+
+
+Started GET "/" for ::1 at 2016-03-21 16:44:12 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (245.2ms)
+Completed 200 OK in 252ms (Views: 250.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 16:44:12 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 16:44:12 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 16:44:12 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 16:44:12 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 16:44:12 +0100
+
+
+Started GET "/assets/app.self-2e4dd1808d32bb58b1ee2fa9bc8f5d1682f0c07dbe44d355dc86111c21c5d1b2.js?body=1" for ::1 at 2016-03-21 16:44:12 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 16:44:12 +0100
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-21 16:44:13 +0100
+
+
+Started GET "/" for ::1 at 2016-03-21 16:46:16 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (219.0ms)
+Completed 200 OK in 227ms (Views: 226.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 16:46:16 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 16:46:16 +0100
+
+
+Started GET "/assets/app.self-19cd07f95ffe7bfbfb8fd3d2f54118646d43c353e6397700e7f54a07a293d0e6.js?body=1" for ::1 at 2016-03-21 16:46:16 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 16:46:16 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 16:46:16 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 16:46:16 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 16:46:17 +0100
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-21 16:46:17 +0100
+
+
+Started GET "/" for ::1 at 2016-03-21 16:48:00 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 22ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 16:48:00 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 16:48:00 +0100
+
+
+Started GET "/assets/app.self-19cd07f95ffe7bfbfb8fd3d2f54118646d43c353e6397700e7f54a07a293d0e6.js?body=1" for ::1 at 2016-03-21 16:48:00 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 16:48:00 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 16:48:00 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 16:48:00 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 16:48:00 +0100
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-21 16:48:00 +0100
+
+
+Started GET "/" for ::1 at 2016-03-21 16:51:24 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (236.3ms)
+Completed 200 OK in 242ms (Views: 241.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 16:51:25 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 16:51:25 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 16:51:25 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 16:51:25 +0100
+
+
+Started GET "/assets/app.self-75d178bf4c396d41482d7921b3af43855c3449f5c6314d6574409fbf3a76b0d4.js?body=1" for ::1 at 2016-03-21 16:51:25 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 16:51:25 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 16:51:25 +0100
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-21 16:51:25 +0100
+
+
+Started POST "/posts.json" for ::1 at 2016-03-21 16:51:27 +0100
+Processing by PostsController#create as JSON
+  Parameters: {"title"=>"woot", "link"=>"woot", "post"=>{"title"=>"woot", "link"=>"woot"}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "posts" ("link", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["link", "woot"], ["title", "woot"], ["created_at", "2016-03-21 15:51:27.776298"], ["updated_at", "2016-03-21 15:51:27.776298"]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+Completed 201 Created in 137ms (Views: 96.3ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/" for ::1 at 2016-03-21 16:51:32 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 19ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 16:51:32 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 16:51:32 +0100
+
+
+Started GET "/assets/app.self-75d178bf4c396d41482d7921b3af43855c3449f5c6314d6574409fbf3a76b0d4.js?body=1" for ::1 at 2016-03-21 16:51:32 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 16:51:32 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 16:51:32 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 16:51:32 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 16:51:32 +0100
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-21 16:51:33 +0100
+
+
+Started POST "/posts.json" for ::1 at 2016-03-21 16:51:38 +0100
+Processing by PostsController#create as JSON
+  Parameters: {"title"=>"wut", "link"=>"wut", "post"=>{"title"=>"wut", "link"=>"wut"}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "posts" ("link", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["link", "wut"], ["title", "wut"], ["created_at", "2016-03-21 15:51:38.153379"], ["updated_at", "2016-03-21 15:51:38.153379"]]
+  [1m[35m (2.6ms)[0m  commit transaction
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 2]]
+Completed 201 Created in 12ms (Views: 1.8ms | ActiveRecord: 3.2ms)
+
+
+Started POST "/posts.json" for ::1 at 2016-03-21 16:51:49 +0100
+Processing by PostsController#create as JSON
+  Parameters: {"title"=>"woot", "link"=>"woot", "post"=>{"title"=>"woot", "link"=>"woot"}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("link", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["link", "woot"], ["title", "woot"], ["created_at", "2016-03-21 15:51:49.808035"], ["updated_at", "2016-03-21 15:51:49.808035"]]
+  [1m[35m (2.2ms)[0m  commit transaction
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 3]]
+Completed 201 Created in 10ms (Views: 1.2ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/" for ::1 at 2016-03-21 16:51:52 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 16:51:52 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 16:51:52 +0100
+
+
+Started GET "/assets/app.self-75d178bf4c396d41482d7921b3af43855c3449f5c6314d6574409fbf3a76b0d4.js?body=1" for ::1 at 2016-03-21 16:51:52 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 16:51:52 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 16:51:52 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 16:51:52 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 16:51:52 +0100
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-21 16:51:52 +0100
+
+
+Started GET "/" for ::1 at 2016-03-21 16:52:21 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (216.6ms)
+Completed 200 OK in 222ms (Views: 221.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 16:52:21 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 16:52:21 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 16:52:21 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 16:52:21 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 16:52:21 +0100
+
+
+Started GET "/assets/app.self-babc5f28b9076a242fa2f26362cb9ca2e05adfb002037762e0515b007a892653.js?body=1" for ::1 at 2016-03-21 16:52:21 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 16:52:21 +0100
+
+
+Started GET "/" for ::1 at 2016-03-21 16:52:29 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (505.8ms)
+Completed 200 OK in 536ms (Views: 525.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 16:52:29 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 16:52:29 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 16:52:29 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 16:52:30 +0100
+
+
+Started GET "/assets/app.self-babc5f28b9076a242fa2f26362cb9ca2e05adfb002037762e0515b007a892653.js?body=1" for ::1 at 2016-03-21 16:52:30 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 16:52:30 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 16:52:30 +0100
+
+
+Started POST "/posts.json" for ::1 at 2016-03-21 16:52:33 +0100
+Processing by PostsController#create as JSON
+  Parameters: {"title"=>"wut", "link"=>"wut", "post"=>{"title"=>"wut", "link"=>"wut"}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "posts" ("link", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["link", "wut"], ["title", "wut"], ["created_at", "2016-03-21 15:52:33.698154"], ["updated_at", "2016-03-21 15:52:33.698154"]]
+  [1m[35m (2.3ms)[0m  commit transaction
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 4]]
+Completed 201 Created in 74ms (Views: 37.1ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-21 16:52:33 +0100
+
+
+Started GET "/" for ::1 at 2016-03-21 16:53:38 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (218.8ms)
+Completed 200 OK in 227ms (Views: 225.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 16:53:38 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 16:53:38 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 16:53:38 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 16:53:38 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 16:53:38 +0100
+
+
+Started GET "/assets/app.self-bca6a0eb845f5a610682116d77468b58827ccde671dfecdc6df52fa6efb10384.js?body=1" for ::1 at 2016-03-21 16:53:38 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 16:53:38 +0100
+
+
+Started GET "/" for ::1 at 2016-03-21 16:53:47 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (231.8ms)
+Completed 200 OK in 241ms (Views: 240.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 16:53:47 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 16:53:47 +0100
+
+
+Started GET "/assets/app.self-92d3c5df5c628672ed768b33de2e8cb5bd54d99da7a19279627bd6c08b3bc29a.js?body=1" for ::1 at 2016-03-21 16:53:47 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 16:53:47 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 16:53:47 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 16:53:47 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 16:53:47 +0100
+
+
+Started GET "/" for ::1 at 2016-03-21 16:53:50 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 16:53:50 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 16:53:50 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 16:53:50 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 16:53:50 +0100
+
+
+Started GET "/assets/app.self-92d3c5df5c628672ed768b33de2e8cb5bd54d99da7a19279627bd6c08b3bc29a.js?body=1" for ::1 at 2016-03-21 16:53:50 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 16:53:50 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 16:53:50 +0100
+
+
+Started GET "/products" for ::1 at 2016-03-21 16:54:04 +0100
+
+ActionController::RoutingError (No route matches [GET] "/products"):
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/Cellar/ruby/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/Cellar/ruby/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/Cellar/ruby/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (89.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (84.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (144.0ms)
+
+
+Started GET "/posts.json" for ::1 at 2016-03-21 16:54:05 +0100
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 2]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 3]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 4]]
+Completed 200 OK in 8ms (Views: 4.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 16:57:11 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for ::1 at 2016-03-21 16:57:12 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (515.7ms)
+Completed 200 OK in 545ms (Views: 535.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 16:57:13 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 16:57:13 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 16:57:13 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 16:57:13 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 16:57:13 +0100
+
+
+Started GET "/assets/app.self-f01d8abfd231a892346adf7b95cdaddfbbbc7af962e3a7b97c1b9ce611d2b08a.js?body=1" for ::1 at 2016-03-21 16:57:13 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 16:57:13 +0100
+
+
+Started POST "/posts.json" for ::1 at 2016-03-21 16:57:24 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PostsController#create as JSON
+  Parameters: {"title"=>"wut", "link"=>"wut", "post"=>{"title"=>"wut", "link"=>"wut"}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "posts" ("link", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["link", "wut"], ["title", "wut"], ["created_at", "2016-03-21 15:57:24.684882"], ["updated_at", "2016-03-21 15:57:24.684882"]]
+  [1m[35m (2.2ms)[0m  commit transaction
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 5]]
+Completed 201 Created in 68ms (Views: 18.0ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-21 16:57:24 +0100
+
+
+Started GET "/" for ::1 at 2016-03-21 16:59:28 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (528.3ms)
+Completed 200 OK in 543ms (Views: 542.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 16:59:29 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 16:59:29 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 16:59:29 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 16:59:29 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 16:59:29 +0100
+
+
+Started GET "/assets/app.self-029ab9681de9948ac3a07189b01b8279cec6ad70c0621302d191eaf5779cae3b.js?body=1" for ::1 at 2016-03-21 16:59:29 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 16:59:29 +0100
+
+
+Started GET "/" for ::1 at 2016-03-21 16:59:35 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (24.1ms)
+Completed 200 OK in 32ms (Views: 30.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 16:59:35 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 16:59:35 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 16:59:35 +0100
+
+
+Started GET "/assets/app.self-f01d8abfd231a892346adf7b95cdaddfbbbc7af962e3a7b97c1b9ce611d2b08a.js?body=1" for ::1 at 2016-03-21 16:59:35 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 16:59:35 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 16:59:35 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 16:59:35 +0100
+
+
+Started GET "/" for ::1 at 2016-03-21 17:00:46 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (227.9ms)
+Completed 200 OK in 238ms (Views: 236.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 17:00:46 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 17:00:46 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 17:00:46 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 17:00:46 +0100
+
+
+Started GET "/assets/app.self-2e84c7cb6f0e4e11baec6bf3a3a0168b65aa4f5af47e7f12d9fc35618543b47f.js?body=1" for ::1 at 2016-03-21 17:00:46 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 17:00:46 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 17:00:46 +0100
+
+
+Started POST "/posts.json" for ::1 at 2016-03-21 17:00:50 +0100
+Processing by PostsController#create as JSON
+  Parameters: {"title"=>"wut", "link"=>"uwt", "post"=>{"title"=>"wut", "link"=>"uwt"}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("link", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["link", "uwt"], ["title", "wut"], ["created_at", "2016-03-21 16:00:50.138494"], ["updated_at", "2016-03-21 16:00:50.138494"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 6]]
+Completed 201 Created in 11ms (Views: 1.9ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-21 17:00:50 +0100
+
+
+Started GET "/" for ::1 at 2016-03-21 17:01:56 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (248.1ms)
+Completed 200 OK in 258ms (Views: 256.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 17:01:56 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 17:01:56 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 17:01:56 +0100
+
+
+Started GET "/assets/app.self-d71f971e93abf4ac66699997b454892904a9bc692c4de663ed040ba1413184e4.js?body=1" for ::1 at 2016-03-21 17:01:56 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 17:01:56 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 17:01:56 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 17:01:56 +0100
+
+
+Started POST "/posts.json" for ::1 at 2016-03-21 17:02:02 +0100
+Processing by PostsController#create as JSON
+  Parameters: {"title"=>"boob", "link"=>"boob", "post"=>{"title"=>"boob", "link"=>"boob"}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "posts" ("link", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["link", "boob"], ["title", "boob"], ["created_at", "2016-03-21 16:02:02.328916"], ["updated_at", "2016-03-21 16:02:02.328916"]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 7]]
+Completed 201 Created in 9ms (Views: 1.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-21 17:02:02 +0100
+
+
+Started GET "/" for ::1 at 2016-03-21 17:02:47 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (228.8ms)
+Completed 200 OK in 237ms (Views: 236.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 17:02:48 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 17:02:48 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 17:02:48 +0100
+
+
+Started GET "/assets/app.self-3f3536c849ec1eb535dbdd1b1d72290c367c100e770a5ac3f04311693f8f1201.js?body=1" for ::1 at 2016-03-21 17:02:48 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 17:02:48 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 17:02:48 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 17:02:48 +0100
+
+
+Started GET "/" for ::1 at 2016-03-21 17:03:05 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (249.5ms)
+Completed 200 OK in 256ms (Views: 255.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 17:03:05 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 17:03:05 +0100
+
+
+Started GET "/assets/app.self-d0c8aded92e896f71d0a24835d1b589a98b88f4f2ea44a3fd99a1717571d2f0a.js?body=1" for ::1 at 2016-03-21 17:03:05 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 17:03:05 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 17:03:05 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 17:03:05 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 17:03:05 +0100
+
+
+Started POST "/posts.json" for ::1 at 2016-03-21 17:03:08 +0100
+Processing by PostsController#create as JSON
+  Parameters: {"title"=>"wut", "link"=>"wut", "post"=>{"title"=>"wut", "link"=>"wut"}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("link", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["link", "wut"], ["title", "wut"], ["created_at", "2016-03-21 16:03:08.078598"], ["updated_at", "2016-03-21 16:03:08.078598"]]
+  [1m[35m (2.5ms)[0m  commit transaction
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 8]]
+Completed 201 Created in 10ms (Views: 1.3ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-21 17:03:08 +0100
+
+
+Started POST "/posts.json" for ::1 at 2016-03-21 17:03:11 +0100
+Processing by PostsController#create as JSON
+  Parameters: {"title"=>"wut", "link"=>"wut", "post"=>{"title"=>"wut", "link"=>"wut"}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "posts" ("link", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["link", "wut"], ["title", "wut"], ["created_at", "2016-03-21 16:03:11.859123"], ["updated_at", "2016-03-21 16:03:11.859123"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 9]]
+Completed 201 Created in 9ms (Views: 1.2ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/" for ::1 at 2016-03-21 17:05:37 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (209.5ms)
+Completed 200 OK in 215ms (Views: 214.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.self-4e140f3fb7ded06ada5b3a485eb467e8caba61ed4b4c27fac39dfacad4557176.js?body=1" for ::1 at 2016-03-21 17:05:37 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 17:05:38 +0100
+
+
+Started GET "/" for ::1 at 2016-03-21 17:05:52 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (230.5ms)
+Completed 200 OK in 236ms (Views: 235.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 17:05:52 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 17:05:52 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 17:05:52 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 17:05:52 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 17:05:52 +0100
+
+
+Started GET "/assets/app.self-3bb80a39c5e530baf59dfaf6d9bdcbca27f1deaa6ed9cdc26b454a8747978fde.js?body=1" for ::1 at 2016-03-21 17:05:52 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 17:05:52 +0100
+
+
+Started GET "/" for ::1 at 2016-03-21 17:05:54 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 17:05:55 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 17:05:55 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 17:05:55 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 17:05:55 +0100
+
+
+Started GET "/assets/app.self-3bb80a39c5e530baf59dfaf6d9bdcbca27f1deaa6ed9cdc26b454a8747978fde.js?body=1" for ::1 at 2016-03-21 17:05:55 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 17:05:55 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 17:05:55 +0100
+
+
+Started GET "/" for ::1 at 2016-03-21 17:06:05 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (225.9ms)
+Completed 200 OK in 234ms (Views: 233.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 17:06:06 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 17:06:06 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 17:06:06 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 17:06:06 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 17:06:06 +0100
+
+
+Started GET "/assets/app.self-8964261881b2558c6955838826a4fc6e85e56c752e60ef7c484d399245e6e758.js?body=1" for ::1 at 2016-03-21 17:06:06 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 17:06:06 +0100
+
+
+Started GET "/" for ::1 at 2016-03-21 17:08:41 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (223.8ms)
+Completed 200 OK in 232ms (Views: 231.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 17:08:41 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 17:08:41 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 17:08:41 +0100
+
+
+Started GET "/assets/app.self-16702ee29a5dca96c86ba9667023f46b4e0f4d2e83416051721c88231b615c9a.js?body=1" for ::1 at 2016-03-21 17:08:41 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 17:08:41 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 17:08:41 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 17:08:41 +0100
+
+
+Started POST "/posts.json" for ::1 at 2016-03-21 17:08:44 +0100
+Processing by PostsController#create as JSON
+  Parameters: {"title"=>"wut", "link"=>"wut", "post"=>{"title"=>"wut", "link"=>"wut"}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("link", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["link", "wut"], ["title", "wut"], ["created_at", "2016-03-21 16:08:44.504837"], ["updated_at", "2016-03-21 16:08:44.504837"]]
+  [1m[35m (2.5ms)[0m  commit transaction
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 10]]
+Completed 201 Created in 10ms (Views: 1.4ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-21 17:08:44 +0100
+
+
+Started GET "/" for ::1 at 2016-03-21 17:10:08 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (226.7ms)
+Completed 200 OK in 234ms (Views: 232.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 17:10:08 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 17:10:08 +0100
+
+
+Started GET "/assets/app.self-a7e8474a3f477c609e708228db93cded5fa9b8e6ba01a113c9e19f2c1395c1f4.js?body=1" for ::1 at 2016-03-21 17:10:08 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 17:10:08 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 17:10:08 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 17:10:08 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 17:10:08 +0100
+
+
+Started GET "/" for ::1 at 2016-03-21 17:10:43 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 17:10:43 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 17:10:43 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 17:10:43 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 17:10:43 +0100
+
+
+Started GET "/assets/app.self-a7e8474a3f477c609e708228db93cded5fa9b8e6ba01a113c9e19f2c1395c1f4.js?body=1" for ::1 at 2016-03-21 17:10:43 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 17:10:43 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 17:10:43 +0100
+
+
+Started GET "/" for ::1 at 2016-03-21 17:10:49 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (228.4ms)
+Completed 200 OK in 239ms (Views: 238.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 17:10:49 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 17:10:49 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 17:10:49 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 17:10:49 +0100
+
+
+Started GET "/assets/app.self-7690851d6222daa21a51ca15aff7c26d32403a55dac25f897e1e5c99be8d6536.js?body=1" for ::1 at 2016-03-21 17:10:49 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 17:10:49 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 17:10:49 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 17:10:49 +0100
+
+
+Started GET "/assets/app.self-7690851d6222daa21a51ca15aff7c26d32403a55dac25f897e1e5c99be8d6536.js?body=1" for ::1 at 2016-03-21 17:10:49 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 17:10:49 +0100
+
+
+Started GET "/" for ::1 at 2016-03-21 17:11:00 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (218.4ms)
+Completed 200 OK in 226ms (Views: 225.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 17:11:00 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 17:11:00 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 17:11:00 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 17:11:00 +0100
+
+
+Started GET "/assets/app.self-50def039986edf1fb662a85a34b4baf6936134e260acdc7df286b392d5754b6d.js?body=1" for ::1 at 2016-03-21 17:11:00 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 17:11:00 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 17:11:00 +0100
+
+
+Started POST "/posts.json" for ::1 at 2016-03-21 17:11:03 +0100
+Processing by PostsController#create as JSON
+  Parameters: {"title"=>"wut", "link"=>"wut", "post"=>{"title"=>"wut", "link"=>"wut"}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("link", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["link", "wut"], ["title", "wut"], ["created_at", "2016-03-21 16:11:03.629308"], ["updated_at", "2016-03-21 16:11:03.629308"]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 11]]
+Completed 201 Created in 8ms (Views: 1.1ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-21 17:11:03 +0100
+
+
+Started GET "/" for ::1 at 2016-03-21 17:13:34 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (500.1ms)
+Completed 200 OK in 535ms (Views: 524.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 17:13:35 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 17:13:35 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 17:13:35 +0100
+
+
+Started GET "/assets/app.self-50def039986edf1fb662a85a34b4baf6936134e260acdc7df286b392d5754b6d.js?body=1" for ::1 at 2016-03-21 17:13:35 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 17:13:35 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 17:13:35 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 17:13:35 +0100
+
+
+Started GET "/" for ::1 at 2016-03-21 17:16:15 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (23.9ms)
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 17:16:16 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 17:16:16 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 17:16:16 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 17:16:16 +0100
+
+
+Started GET "/assets/app.self-50def039986edf1fb662a85a34b4baf6936134e260acdc7df286b392d5754b6d.js?body=1" for ::1 at 2016-03-21 17:16:16 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 17:16:16 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 17:16:16 +0100
+
+
+Started GET "/" for ::1 at 2016-03-21 17:31:02 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (16.1ms)
+Completed 500 Internal Server Error in 36ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'angular-rails-templates' with type 'application/javascript'):
+    3: <head>
+    4:   <title>AngReddit - Angular Meets Rails </title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: 
+    9:   <!-- Meta Tags -->
+  app/assets/javascripts/application.js:3
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__2830761452077347379_70230293043720'
+  app/controllers/application_controller.rb:8:in `angular'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (22.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (96.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (70.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (139.8ms)
+
+
+Started GET "/" for ::1 at 2016-03-21 17:32:04 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (1192.8ms)
+Completed 200 OK in 1221ms (Views: 1209.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 17:32:06 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 17:32:06 +0100
+
+
+Started GET "/assets/home/mainCtrl.self-d63ba3ebda0dcd8b27f4b15a4d2025332aa9a86f8822202a0a5b679df501bf21.js?body=1" for ::1 at 2016-03-21 17:32:06 +0100
+
+
+Started GET "/assets/app.self-bb118cc343ba4919ea4c516b50ab25668280df2e38ac66b1dc27cf3da173476b.js?body=1" for ::1 at 2016-03-21 17:32:06 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 17:32:06 +0100
+
+
+Started GET "/assets/posts/_posts.self-75a28cda59c7e6f3fe5d5630e943ed4d5a39dc554805f6a1f2fd6138c8b9ba55.js?body=1" for ::1 at 2016-03-21 17:32:06 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 17:32:06 +0100
+
+
+Started GET "/assets/posts/posts.self-b46d0f8dd9a6f617a45c684c4b1341ff18aa62f0cc85f5f36dba9d3a3b3b5e86.js?body=1" for ::1 at 2016-03-21 17:32:06 +0100
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for ::1 at 2016-03-21 17:32:06 +0100
+
+
+Started GET "/assets/posts/postsCtrl.self-c4e285ae79f4690809adba93610ced0d933003006a6e721dcfa5d5a320de729d.js?body=1" for ::1 at 2016-03-21 17:32:06 +0100
+
+
+Started GET "/assets/application.self-545c38b0922de19734fbffde62792c37c2aef6a3216cfa472449173165220f7d.js?body=1" for ::1 at 2016-03-21 17:32:06 +0100
+
+
+Started GET "/assets/home/_home.self-17f42942542eeb7c386cfccf1f9becaa2cb2bdeb5501745a380448fd8d35a5cf.js?body=1" for ::1 at 2016-03-21 17:32:06 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 17:32:06 +0100
+
+
+Started POST "/posts.json" for ::1 at 2016-03-21 17:32:09 +0100
+Processing by PostsController#create as JSON
+  Parameters: {"title"=>"woot", "link"=>"woot", "post"=>{"title"=>"woot", "link"=>"woot"}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "posts" ("link", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["link", "woot"], ["title", "woot"], ["created_at", "2016-03-21 16:32:09.680306"], ["updated_at", "2016-03-21 16:32:09.680306"]]
+  [1m[35m (1.2ms)[0m  commit transaction
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 12]]
+Completed 201 Created in 44ms (Views: 20.2ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-21 17:32:09 +0100
+
+
+Started GET "/woot" for ::1 at 2016-03-21 17:32:24 +0100
+
+ActionController::RoutingError (No route matches [GET] "/woot"):
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /usr/local/Cellar/ruby/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /usr/local/Cellar/ruby/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /usr/local/Cellar/ruby/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.8ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (90.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (81.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (145.8ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 17:32:26 +0100

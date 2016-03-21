@@ -1,0 +1,40 @@
+<div class="header">
+  <h3> Angit! Reddit but made with Angular! </h3>
+</div>
+
+<!-- Input form -->
+<form class="form-inline" ng-submit="addPost()">
+  <input type="text" class="form-control" placeholder="New title..." ng-model="title">
+ 
+  <input type="text" class="form-control" placeholder="Share a link..." ng-model="link">
+
+  <button class="btn btn-default" type="submit"> 
+    Post 
+  </button>
+</form>
+
+<!-- Display Form -->
+<form class="form" ng-repeat="post in posts | orderBy: '-upvotes'">
+  <label class="label label-success">
+    <label class="glyphicon glyphicon-thumbs-up" ng-click="incrementUpvotes(post)">
+    </label>
+  </label>
+
+  <label class="label label-info">        
+    <a ng-show="post.link" href="{{post.link}}">
+      {{post.title}}
+    </a>
+  </label>
+
+  <span ng-hide="post.link">
+    {{post.title}}
+  </span>
+  
+  <label class="label label-info">
+    {{post.upvotes}}
+  </label>
+
+  <span>
+    <a href="#/posts/{{$index}}">Comments</a>
+  </span>
+</form>

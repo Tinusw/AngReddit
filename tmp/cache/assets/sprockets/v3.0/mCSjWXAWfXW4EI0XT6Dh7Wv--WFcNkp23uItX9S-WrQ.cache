@@ -1,0 +1,36 @@
+{:uriI"…file://app/assets/javascripts/posts/_posts.html?type=text/ng-html&id=39418977164ccb1b981c632858788a29d058249840a2435eadae03625381f998:ET:load_pathI"app/assets/javascripts;T:filenameI"-app/assets/javascripts/posts/_posts.html;T:	nameI"posts/_posts;T:logical_pathI"posts/_posts.html;T:content_typeI"text/ng-html;T:sourceI"<div class="page-header">
+  <h3>
+    <a ng-show="post.link" href="{{post.link}}">
+      {{post.title}}
+    </a>
+    <span ng-hide="post.link">
+      {{post.title}}
+    </span>
+  </h3>
+</div>
+
+<div ng-repeat="comment in post.comments | orderBy:'-upvotes'">
+  <label class="label label-success">
+    <label class="glyphicon glyphicon-thumbs-up" ng-click="incrementUpvotes(comment)">
+    </label>
+    {{comment.upvotes}} - by {{comment.author}}
+    <span>
+      {{comment.body}}
+    </span>
+  </label>
+</div>
+
+<form ng-submit="addComment()">
+  <h3>
+    Add a new comment
+  </h3>
+
+  <div class="form-group">
+    <input type="text" class="form-control" placeholder="Comment" ng-model="body"></input>
+  </div>
+  <button type="submit" class="btn btn-primary">Post</button>
+</form>;T:metadata{	:dependencieso:Set:
+@hash{
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"8processors:type=text/ng-html&file_type=text/ng-html;TTI";file-digest://app/assets/javascripts/posts/_posts.html;TT:charsetI"
+utf-8;F:digest"%õW§Íšÿ]äìÆ2uxyN <Ø°F áŽ9G›õ×á:lengthi:dependencies_digest"%^{ÒííNˆ+§ØV^òoÒÃã"¢Ü$iq6R®–:idI"E39418977164ccb1b981c632858788a29d058249840a2435eadae03625381f998;F:
+mtimel+ÆðV
