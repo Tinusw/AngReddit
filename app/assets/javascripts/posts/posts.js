@@ -22,7 +22,7 @@ var app = angular.module('angitNews');
 
     // upvote a post method
     x.upvote = function(post) {
-      return $http.put('/posts' + post.id + '/upvote.json').success(function(data){
+      return $http.put('/posts/' + post.id + '/upvote.json').success(function(data){
         post.upvotes += 1;
       });
     };
