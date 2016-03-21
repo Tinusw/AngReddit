@@ -413,3 +413,123 @@ Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21
 
 
 Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-21 16:17:39 +0100
+
+
+Started GET "/" for ::1 at 2016-03-21 16:20:45 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 23ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 16:20:46 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 16:20:46 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 16:20:46 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 16:20:46 +0100
+
+
+Started GET "/assets/app.self-5a77f0a887b38006935cf1c6daceee8e5689a85f0a4d90d6ec8972cd895b107d.js?body=1" for ::1 at 2016-03-21 16:20:46 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 16:20:46 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 16:20:46 +0100
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-21 16:20:46 +0100
+
+
+Started GET "/" for ::1 at 2016-03-21 16:38:25 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (243.3ms)
+Completed 200 OK in 252ms (Views: 251.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 16:38:25 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 16:38:25 +0100
+
+
+Started GET "/assets/app.self-aac814dc26c0b27701b9f8360c27673bfe9670df91472bb54563a21c37d57f7e.js?body=1" for ::1 at 2016-03-21 16:38:25 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 16:38:25 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 16:38:25 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 16:38:25 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 16:38:25 +0100
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-21 16:38:26 +0100
+
+
+Started GET "/" for ::1 at 2016-03-21 16:38:43 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (253.6ms)
+Completed 200 OK in 263ms (Views: 263.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 16:38:43 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 16:38:44 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 16:38:44 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 16:38:44 +0100
+
+
+Started GET "/assets/app.self-a6325e0b7b5e1a3c9b31e522721afe103c60e2fce9b51a84325152809655b264.js?body=1" for ::1 at 2016-03-21 16:38:44 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 16:38:44 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 16:38:44 +0100
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-21 16:38:44 +0100
+
+
+Started GET "/" for ::1 at 2016-03-21 16:38:58 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (229.4ms)
+Completed 200 OK in 237ms (Views: 236.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-21 16:38:58 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-21 16:38:58 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-21 16:38:58 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-21 16:38:58 +0100
+
+
+Started GET "/assets/application.self-6a3cf5192354f71615ac51034b3e97c20eda99643fcaf5bbe6d41ad59bd12167.js?body=1" for ::1 at 2016-03-21 16:38:58 +0100
+
+
+Started GET "/assets/app.self-1515d9507d9d1b1e012bcef1ec7500fc7fa581d7b04158bf1de0592d5aee0912.js?body=1" for ::1 at 2016-03-21 16:38:58 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-21 16:38:58 +0100
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-21 16:38:58 +0100
