@@ -1,6 +1,10 @@
 class PostsController < ApplicationController
   before_filter :authenticate_user!, only: [:create, :upvote]
 
+  def as_json(options = {})
+    super(options.merge(include: [:user, comments: {include: :user}]))
+  end
+
   def index
     respond_with Post.all
   end

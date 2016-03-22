@@ -1,4 +1,4 @@
-<div class="header">
+{:uriI"ƒfile://app/assets/javascripts/home/_home.html?type=text/ng-html&id=3b4d6a90a1bdba7eae2d9695d7f5b3fa2fd399baf1e93994dddbe323dae0ebc7:ET:load_pathI"app/assets/javascripts;T:filenameI"+app/assets/javascripts/home/_home.html;T:	nameI"home/_home;T:logical_pathI"home/_home.html;T:content_typeI"text/ng-html;T:sourceI"+<div class="header">
   <h3> Angit! Reddit but made with Angular! </h3>
 </div>
 
@@ -40,3 +40,8 @@
     <a href="#/posts/{{post.id}}">Comments</a>
   </span>
 </form>
+;T:metadata{	:dependencieso:Set:
+@hash{
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"8processors:type=text/ng-html&file_type=text/ng-html;TTI"9file-digest://app/assets/javascripts/home/_home.html;TT:charsetI"
+utf-8;F:digest"%q~'¤Ó£FÎÀQ(¤†}¶¸&aÝ[/Š[­ Žq—¢:lengthi+:dependencies_digest"%Èvk¹K8úÚRª²}ê5a:ñçú7µYÑÅOá:idI"E3b4d6a90a1bdba7eae2d9695d7f5b3fa2fd399baf1e93994dddbe323dae0ebc7;F:
+mtimel+ÚKñV
