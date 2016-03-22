@@ -22,7 +22,7 @@ var app = angular.module('angitNews', ['ui.router', 'templates', 'Devise']);
   	  	controller: 'PostsCtrl',
         resolve: {
         post: ['$stateParams', 'posts', function($stateParams, posts) {
-          return posts.get($stateParams.id);
+            return posts.get($stateParams.id);
           }]
         }
   	  })
@@ -31,6 +31,7 @@ var app = angular.module('angitNews', ['ui.router', 'templates', 'Devise']);
         url: '/login',
         templateUrl: 'auth/_login.html',
         controller: 'AuthCtrl',
+        // redirect authenticated users
         onEnter: ['$state', 'Auth', function($state, Auth) {
           Auth.currentUser().then(function () {
             $state.go('home');
@@ -42,6 +43,7 @@ var app = angular.module('angitNews', ['ui.router', 'templates', 'Devise']);
         url: '/register',
         templateUrl: 'auth/_register.html',
         controller: 'AuthCtrl',
+        // redirect authenticated users
         onEnter: ['$state', 'Auth', function($state, Auth) {
           Auth.currentUser().then(function () {
             $state.go('home');
