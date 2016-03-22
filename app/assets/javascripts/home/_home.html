@@ -14,20 +14,27 @@
 </form>
 
 <!-- Display Form -->
-<div ng-repeat="post in posts | orderBy:'-upvotes'">
-    <span class="glyphicon glyphicon-thumbs-up"
-      ng-click="incrementUpvotes(post)"></span>
+<form class="form" ng-repeat="post in posts | orderBy: '-upvotes'">
+  <label class="label label-success">
+    <label class="glyphicon glyphicon-thumbs-up" ng-click="incrementUpvotes(post)">
+    </label>
+  </label>
+
+  <label class="label label-info">
     {{post.upvotes}}
-    <span style="font-size:20px; margin-left:10px;">
-      <a ng-show="post.link" href="{{post.link}}">
-        {{post.title}}
-      </a>
-      <span ng-hide="post.link">
-        {{post.title}}
-      </span>
-      posted by <a ng-href="#/users/{{post.user.username}}">{{post.user.username}}</a>
-    </span>
-    <span>
-      <a href="#/posts/{{post.id}}">Comments</a>
-    </span>
-  </div>
+  </label>
+
+  <label class="label label-info">        
+    <a ng-show="post.link" href="{{post.link}}">
+      {{post.title}}
+    </a>
+  </label>
+
+  <span ng-hide="post.link">
+    {{post.title}}
+  </span>  
+
+  <span>
+    <a href="#/posts/{{post.id}}">Comments</a>
+  </span>
+</form>

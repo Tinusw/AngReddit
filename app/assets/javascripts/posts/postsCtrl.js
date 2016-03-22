@@ -21,4 +21,3 @@ app.controller('PostsCtrl', ['$scope','posts','post',function($scope, posts, pos
     };
 
 }]);
-

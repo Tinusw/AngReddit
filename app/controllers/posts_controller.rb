@@ -4,7 +4,7 @@ class PostsController < ApplicationController
   def as_json(options = {})
     super(options.merge(include: [:user, comments: {include: :user}]))
   end
-
+  
   def index
     respond_with Post.all
   end
@@ -25,12 +25,7 @@ class PostsController < ApplicationController
   end
 
   private
-
   def post_params
-    params.require(:post).permit(:link,:title)
-  end
-
-  def comment_params
-    params.require(:comment).permit(:body)
+    params.require(:post).permit(:link, :title)
   end
 end

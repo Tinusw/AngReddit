@@ -8471,3 +8471,2077 @@ Processing by PostsController#show as JSON
   [1m[36mPost Load (0.4ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 28]]
   [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 28]]
 Completed 200 OK in 26ms (Views: 7.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2016-03-22 16:14:55 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (2081.3ms)
+Completed 200 OK in 2218ms (Views: 2175.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-22 16:14:58 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-22 16:14:58 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-22 16:14:58 +0100
+
+
+Started GET "/assets/angular-devise/devise.self-633c6de0b47e944b4aab238ff501621349023b511d73dd13f10a376b89ea1a1b.js?body=1" for ::1 at 2016-03-22 16:14:58 +0100
+
+
+Started GET "/assets/angular-devise.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-03-22 16:14:58 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-22 16:14:58 +0100
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for ::1 at 2016-03-22 16:14:58 +0100
+
+
+Started GET "/assets/app.self-2a3bdae7d2e1cda260af4adad22673d19be80f9fe96ae246415548c0b3570fca.js?body=1" for ::1 at 2016-03-22 16:14:58 +0100
+
+
+Started GET "/assets/auth/_login.self-048ea316008d583328015593e6313070e5a531a3b1812e0c4598e463a8dba5a4.js?body=1" for ::1 at 2016-03-22 16:14:58 +0100
+
+
+Started GET "/assets/auth/_register.self-5ceeff06355c690e48819a73f4fc11e9fa569821e485dc28bf5424a48c0c2d22.js?body=1" for ::1 at 2016-03-22 16:14:58 +0100
+
+
+Started GET "/assets/auth/authCtrl.self-8ce2832f88973da3f1a71a09e161ad751ccb957dabcae7f9242e99ab8c3464cd.js?body=1" for ::1 at 2016-03-22 16:14:58 +0100
+
+
+Started GET "/assets/home/_home.self-af4a4d4de1d156e79af1f5f9fb1ef8afa95dface4457ad61a56b1895c33604c7.js?body=1" for ::1 at 2016-03-22 16:14:58 +0100
+
+
+Started GET "/assets/home/mainCtrl.self-9d0d123f9a5df45a1e8b0bbafc691f469bbcaa054a519de2008ecb973225a9a0.js?body=1" for ::1 at 2016-03-22 16:14:58 +0100
+
+
+Started GET "/assets/nav/_nav.self-b574dbe835f896bce4cff8e853c38e7f6bc56b0e95cb5672db97d1cacb174256.js?body=1" for ::1 at 2016-03-22 16:14:58 +0100
+
+
+Started GET "/assets/nav/navCtrl.self-705e5f1c55ff0871ba60968661e21d69e651b7daac6c6de7168a83b70e675980.js?body=1" for ::1 at 2016-03-22 16:14:58 +0100
+
+
+Started GET "/assets/posts/_posts.self-75a28cda59c7e6f3fe5d5630e943ed4d5a39dc554805f6a1f2fd6138c8b9ba55.js?body=1" for ::1 at 2016-03-22 16:14:58 +0100
+
+
+Started GET "/assets/posts/posts.self-f0182f4aadcea15d654c0f46d46ff2036a773fdc01a112213dd63de677bc0c49.js?body=1" for ::1 at 2016-03-22 16:14:58 +0100
+
+
+Started GET "/assets/posts/postsCtrl.self-e807e9bb9fac1a1809e797b45e5a0afaf0fc682d0ece582cc3dae4b7e9ce07f1.js?body=1" for ::1 at 2016-03-22 16:14:58 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-22 16:14:58 +0100
+
+
+Started GET "/assets/application.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3.js?body=1" for ::1 at 2016-03-22 16:14:58 +0100
+
+
+Started GET "/posts/27.json" for ::1 at 2016-03-22 16:14:58 +0100
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"27"}
+  [1m[35mPost Load (17.5ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 27]]
+Completed 404 Not Found in 80ms (ActiveRecord: 18.2ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Post with 'id'=27):
+  app/controllers/posts_controller.rb:17:in `show'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (70.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (146.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (249.4ms)
+
+
+Started POST "/users/sign_in.json" for ::1 at 2016-03-22 16:14:59 +0100
+Processing by Devise::SessionsController#create as JSON
+  Parameters: {"user"=>{}, "session"=>{"user"=>{}}}
+  [1m[36mUser Load (15.8ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 201 Created in 248ms (Views: 3.2ms | ActiveRecord: 16.2ms)
+
+
+Started GET "/posts.json" for ::1 at 2016-03-22 16:15:02 +0100
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mComment Load (14.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 28]]
+Completed 200 OK in 120ms (Views: 83.6ms | ActiveRecord: 15.1ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-22 16:15:02 +0100
+
+
+Started GET "/posts/28.json" for ::1 at 2016-03-22 16:15:06 +0100
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"28"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 28]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 28]]
+Completed 200 OK in 16ms (Views: 4.6ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/posts/28/comments.json" for ::1 at 2016-03-22 16:15:09 +0100
+Processing by CommentsController#create as JSON
+  Parameters: {"body"=>"coo", "author"=>"user", "post_id"=>"28", "comment"=>{"body"=>"coo"}}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 28]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (11.9ms)[0m  [1mINSERT INTO "comments" ("body", "user_id", "post_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["body", "coo"], ["user_id", 1], ["post_id", 28], ["created_at", "2016-03-22 15:15:09.668022"], ["updated_at", "2016-03-22 15:15:09.668022"]]
+  [1m[35m (1.5ms)[0m  commit transaction
+Completed 201 Created in 28ms (Views: 1.6ms | ActiveRecord: 13.7ms)
+
+
+Started GET "/" for ::1 at 2016-03-22 16:15:23 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (363.5ms)
+Completed 200 OK in 387ms (Views: 386.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-22 16:15:23 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-22 16:15:23 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-22 16:15:23 +0100
+
+
+Started GET "/assets/app.self-2a3bdae7d2e1cda260af4adad22673d19be80f9fe96ae246415548c0b3570fca.js?body=1" for ::1 at 2016-03-22 16:15:23 +0100
+
+
+Started GET "/assets/angular-devise.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-03-22 16:15:23 +0100
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for ::1 at 2016-03-22 16:15:23 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-22 16:15:23 +0100
+
+
+Started GET "/assets/angular-devise/devise.self-633c6de0b47e944b4aab238ff501621349023b511d73dd13f10a376b89ea1a1b.js?body=1" for ::1 at 2016-03-22 16:15:23 +0100
+
+
+Started GET "/assets/auth/_login.self-048ea316008d583328015593e6313070e5a531a3b1812e0c4598e463a8dba5a4.js?body=1" for ::1 at 2016-03-22 16:15:23 +0100
+
+
+Started GET "/assets/auth/_register.self-5ceeff06355c690e48819a73f4fc11e9fa569821e485dc28bf5424a48c0c2d22.js?body=1" for ::1 at 2016-03-22 16:15:23 +0100
+
+
+Started GET "/assets/home/mainCtrl.self-9d0d123f9a5df45a1e8b0bbafc691f469bbcaa054a519de2008ecb973225a9a0.js?body=1" for ::1 at 2016-03-22 16:15:23 +0100
+
+
+Started GET "/assets/nav/_nav.self-b574dbe835f896bce4cff8e853c38e7f6bc56b0e95cb5672db97d1cacb174256.js?body=1" for ::1 at 2016-03-22 16:15:23 +0100
+
+
+Started GET "/assets/home/_home.self-af4a4d4de1d156e79af1f5f9fb1ef8afa95dface4457ad61a56b1895c33604c7.js?body=1" for ::1 at 2016-03-22 16:15:23 +0100
+
+
+Started GET "/assets/auth/authCtrl.self-8ce2832f88973da3f1a71a09e161ad751ccb957dabcae7f9242e99ab8c3464cd.js?body=1" for ::1 at 2016-03-22 16:15:23 +0100
+
+
+Started GET "/assets/posts/posts.self-f0182f4aadcea15d654c0f46d46ff2036a773fdc01a112213dd63de677bc0c49.js?body=1" for ::1 at 2016-03-22 16:15:23 +0100
+
+
+Started GET "/assets/nav/navCtrl.self-705e5f1c55ff0871ba60968661e21d69e651b7daac6c6de7168a83b70e675980.js?body=1" for ::1 at 2016-03-22 16:15:23 +0100
+
+
+Started GET "/assets/posts/_posts.self-ffdd363e7b083a5c3e79b26ee572856cd980082cd5dac3ac2e8db7e2cd8f9809.js?body=1" for ::1 at 2016-03-22 16:15:23 +0100
+
+
+Started GET "/assets/posts/postsCtrl.self-e807e9bb9fac1a1809e797b45e5a0afaf0fc682d0ece582cc3dae4b7e9ce07f1.js?body=1" for ::1 at 2016-03-22 16:15:23 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-22 16:15:23 +0100
+
+
+Started GET "/assets/application.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3.js?body=1" for ::1 at 2016-03-22 16:15:23 +0100
+
+
+Started GET "/posts/28.json" for ::1 at 2016-03-22 16:15:24 +0100
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"28"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 28]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 28]]
+Completed 200 OK in 10ms (Views: 3.0ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users/sign_in.json" for ::1 at 2016-03-22 16:15:24 +0100
+Processing by Devise::SessionsController#create as JSON
+  Parameters: {"user"=>{}, "session"=>{"user"=>{}}}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 201 Created in 12ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-22 16:15:24 +0100
+
+
+Started GET "/" for ::1 at 2016-03-22 16:15:33 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (280.5ms)
+Completed 200 OK in 291ms (Views: 290.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-22 16:15:34 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-22 16:15:34 +0100
+
+
+Started GET "/assets/angular-devise.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-03-22 16:15:34 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-22 16:15:34 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-22 16:15:34 +0100
+
+
+Started GET "/assets/angular-devise/devise.self-633c6de0b47e944b4aab238ff501621349023b511d73dd13f10a376b89ea1a1b.js?body=1" for ::1 at 2016-03-22 16:15:34 +0100
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for ::1 at 2016-03-22 16:15:34 +0100
+
+
+Started GET "/assets/app.self-2a3bdae7d2e1cda260af4adad22673d19be80f9fe96ae246415548c0b3570fca.js?body=1" for ::1 at 2016-03-22 16:15:34 +0100
+
+
+Started GET "/assets/auth/_login.self-048ea316008d583328015593e6313070e5a531a3b1812e0c4598e463a8dba5a4.js?body=1" for ::1 at 2016-03-22 16:15:34 +0100
+
+
+Started GET "/assets/auth/_register.self-5ceeff06355c690e48819a73f4fc11e9fa569821e485dc28bf5424a48c0c2d22.js?body=1" for ::1 at 2016-03-22 16:15:34 +0100
+
+
+Started GET "/assets/auth/authCtrl.self-8ce2832f88973da3f1a71a09e161ad751ccb957dabcae7f9242e99ab8c3464cd.js?body=1" for ::1 at 2016-03-22 16:15:34 +0100
+
+
+Started GET "/assets/home/_home.self-af4a4d4de1d156e79af1f5f9fb1ef8afa95dface4457ad61a56b1895c33604c7.js?body=1" for ::1 at 2016-03-22 16:15:34 +0100
+
+
+Started GET "/assets/nav/_nav.self-b574dbe835f896bce4cff8e853c38e7f6bc56b0e95cb5672db97d1cacb174256.js?body=1" for ::1 at 2016-03-22 16:15:34 +0100
+
+
+Started GET "/assets/home/mainCtrl.self-9d0d123f9a5df45a1e8b0bbafc691f469bbcaa054a519de2008ecb973225a9a0.js?body=1" for ::1 at 2016-03-22 16:15:34 +0100
+
+
+Started GET "/assets/nav/navCtrl.self-705e5f1c55ff0871ba60968661e21d69e651b7daac6c6de7168a83b70e675980.js?body=1" for ::1 at 2016-03-22 16:15:34 +0100
+
+
+Started GET "/assets/posts/_posts.self-6b830bbd76ad30be75c146b0cf1fa64b99179db24e63612e599967e31f426e1e.js?body=1" for ::1 at 2016-03-22 16:15:34 +0100
+
+
+Started GET "/assets/posts/posts.self-f0182f4aadcea15d654c0f46d46ff2036a773fdc01a112213dd63de677bc0c49.js?body=1" for ::1 at 2016-03-22 16:15:34 +0100
+
+
+Started GET "/assets/posts/postsCtrl.self-e807e9bb9fac1a1809e797b45e5a0afaf0fc682d0ece582cc3dae4b7e9ce07f1.js?body=1" for ::1 at 2016-03-22 16:15:34 +0100
+
+
+Started GET "/assets/application.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3.js?body=1" for ::1 at 2016-03-22 16:15:34 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-22 16:15:34 +0100
+
+
+Started GET "/posts/28.json" for ::1 at 2016-03-22 16:15:34 +0100
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"28"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 28]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 28]]
+Completed 200 OK in 11ms (Views: 2.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/users/sign_in.json" for ::1 at 2016-03-22 16:15:34 +0100
+Processing by Devise::SessionsController#create as JSON
+  Parameters: {"user"=>{}, "session"=>{"user"=>{}}}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 201 Created in 12ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-22 16:15:34 +0100
+
+
+Started POST "/posts/28/comments.json" for ::1 at 2016-03-22 16:15:37 +0100
+Processing by CommentsController#create as JSON
+  Parameters: {"body"=>"asdfa", "author"=>"user", "post_id"=>"28", "comment"=>{"body"=>"asdfa"}}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 28]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "comments" ("body", "user_id", "post_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["body", "asdfa"], ["user_id", 1], ["post_id", 28], ["created_at", "2016-03-22 15:15:37.312284"], ["updated_at", "2016-03-22 15:15:37.312284"]]
+  [1m[36m (2.6ms)[0m  [1mcommit transaction[0m
+Completed 201 Created in 14ms (Views: 0.6ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/" for ::1 at 2016-03-22 16:15:46 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (32.0ms)
+Completed 200 OK in 48ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-22 16:15:47 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-22 16:15:47 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-22 16:15:47 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-22 16:15:47 +0100
+
+
+Started GET "/assets/angular-devise/devise.self-633c6de0b47e944b4aab238ff501621349023b511d73dd13f10a376b89ea1a1b.js?body=1" for ::1 at 2016-03-22 16:15:47 +0100
+
+
+Started GET "/assets/angular-devise.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-03-22 16:15:47 +0100
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for ::1 at 2016-03-22 16:15:47 +0100
+
+
+Started GET "/assets/app.self-2a3bdae7d2e1cda260af4adad22673d19be80f9fe96ae246415548c0b3570fca.js?body=1" for ::1 at 2016-03-22 16:15:47 +0100
+
+
+Started GET "/assets/auth/_login.self-048ea316008d583328015593e6313070e5a531a3b1812e0c4598e463a8dba5a4.js?body=1" for ::1 at 2016-03-22 16:15:47 +0100
+
+
+Started GET "/assets/auth/_register.self-5ceeff06355c690e48819a73f4fc11e9fa569821e485dc28bf5424a48c0c2d22.js?body=1" for ::1 at 2016-03-22 16:15:47 +0100
+
+
+Started GET "/assets/auth/authCtrl.self-8ce2832f88973da3f1a71a09e161ad751ccb957dabcae7f9242e99ab8c3464cd.js?body=1" for ::1 at 2016-03-22 16:15:47 +0100
+
+
+Started GET "/assets/home/_home.self-af4a4d4de1d156e79af1f5f9fb1ef8afa95dface4457ad61a56b1895c33604c7.js?body=1" for ::1 at 2016-03-22 16:15:47 +0100
+
+
+Started GET "/assets/home/mainCtrl.self-9d0d123f9a5df45a1e8b0bbafc691f469bbcaa054a519de2008ecb973225a9a0.js?body=1" for ::1 at 2016-03-22 16:15:47 +0100
+
+
+Started GET "/assets/nav/_nav.self-b574dbe835f896bce4cff8e853c38e7f6bc56b0e95cb5672db97d1cacb174256.js?body=1" for ::1 at 2016-03-22 16:15:47 +0100
+
+
+Started GET "/assets/nav/navCtrl.self-705e5f1c55ff0871ba60968661e21d69e651b7daac6c6de7168a83b70e675980.js?body=1" for ::1 at 2016-03-22 16:15:47 +0100
+
+
+Started GET "/assets/posts/_posts.self-ffdd363e7b083a5c3e79b26ee572856cd980082cd5dac3ac2e8db7e2cd8f9809.js?body=1" for ::1 at 2016-03-22 16:15:47 +0100
+
+
+Started GET "/assets/posts/posts.self-f0182f4aadcea15d654c0f46d46ff2036a773fdc01a112213dd63de677bc0c49.js?body=1" for ::1 at 2016-03-22 16:15:47 +0100
+
+
+Started GET "/assets/posts/postsCtrl.self-e807e9bb9fac1a1809e797b45e5a0afaf0fc682d0ece582cc3dae4b7e9ce07f1.js?body=1" for ::1 at 2016-03-22 16:15:47 +0100
+
+
+Started GET "/assets/application.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3.js?body=1" for ::1 at 2016-03-22 16:15:47 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-22 16:15:47 +0100
+
+
+Started GET "/posts/28.json" for ::1 at 2016-03-22 16:15:47 +0100
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"28"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 28]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 28]]
+Completed 200 OK in 11ms (Views: 4.0ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users/sign_in.json" for ::1 at 2016-03-22 16:15:47 +0100
+Processing by Devise::SessionsController#create as JSON
+  Parameters: {"user"=>{}, "session"=>{"user"=>{}}}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 201 Created in 13ms (Views: 1.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-22 16:15:47 +0100
+
+
+Started GET "/" for ::1 at 2016-03-22 16:18:58 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (259.9ms)
+Completed 200 OK in 293ms (Views: 285.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-22 16:18:59 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-22 16:18:59 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-22 16:18:59 +0100
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for ::1 at 2016-03-22 16:18:59 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-22 16:18:59 +0100
+
+
+Started GET "/assets/angular-devise.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-03-22 16:18:59 +0100
+
+
+Started GET "/assets/angular-devise/devise.self-633c6de0b47e944b4aab238ff501621349023b511d73dd13f10a376b89ea1a1b.js?body=1" for ::1 at 2016-03-22 16:18:59 +0100
+
+
+Started GET "/assets/app.self-2a3bdae7d2e1cda260af4adad22673d19be80f9fe96ae246415548c0b3570fca.js?body=1" for ::1 at 2016-03-22 16:18:59 +0100
+
+
+Started GET "/assets/auth/_login.self-048ea316008d583328015593e6313070e5a531a3b1812e0c4598e463a8dba5a4.js?body=1" for ::1 at 2016-03-22 16:18:59 +0100
+
+
+Started GET "/assets/auth/_register.self-5ceeff06355c690e48819a73f4fc11e9fa569821e485dc28bf5424a48c0c2d22.js?body=1" for ::1 at 2016-03-22 16:18:59 +0100
+
+
+Started GET "/assets/auth/authCtrl.self-8ce2832f88973da3f1a71a09e161ad751ccb957dabcae7f9242e99ab8c3464cd.js?body=1" for ::1 at 2016-03-22 16:18:59 +0100
+
+
+Started GET "/assets/home/_home.self-af4a4d4de1d156e79af1f5f9fb1ef8afa95dface4457ad61a56b1895c33604c7.js?body=1" for ::1 at 2016-03-22 16:18:59 +0100
+
+
+Started GET "/assets/home/mainCtrl.self-9d0d123f9a5df45a1e8b0bbafc691f469bbcaa054a519de2008ecb973225a9a0.js?body=1" for ::1 at 2016-03-22 16:18:59 +0100
+
+
+Started GET "/assets/nav/_nav.self-b574dbe835f896bce4cff8e853c38e7f6bc56b0e95cb5672db97d1cacb174256.js?body=1" for ::1 at 2016-03-22 16:18:59 +0100
+
+
+Started GET "/assets/nav/navCtrl.self-705e5f1c55ff0871ba60968661e21d69e651b7daac6c6de7168a83b70e675980.js?body=1" for ::1 at 2016-03-22 16:18:59 +0100
+
+
+Started GET "/assets/posts/_posts.self-ffdd363e7b083a5c3e79b26ee572856cd980082cd5dac3ac2e8db7e2cd8f9809.js?body=1" for ::1 at 2016-03-22 16:18:59 +0100
+
+
+Started GET "/assets/posts/posts.self-f0182f4aadcea15d654c0f46d46ff2036a773fdc01a112213dd63de677bc0c49.js?body=1" for ::1 at 2016-03-22 16:18:59 +0100
+
+
+Started GET "/assets/posts/postsCtrl.self-e807e9bb9fac1a1809e797b45e5a0afaf0fc682d0ece582cc3dae4b7e9ce07f1.js?body=1" for ::1 at 2016-03-22 16:18:59 +0100
+
+
+Started GET "/assets/application.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3.js?body=1" for ::1 at 2016-03-22 16:18:59 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-22 16:18:59 +0100
+
+
+Started GET "/posts/28.json" for ::1 at 2016-03-22 16:18:59 +0100
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"28"}
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 28]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 28]]
+Completed 200 OK in 78ms (Views: 28.0ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/users/sign_in.json" for ::1 at 2016-03-22 16:18:59 +0100
+Processing by Devise::SessionsController#create as JSON
+  Parameters: {"user"=>{}, "session"=>{"user"=>{}}}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 201 Created in 37ms (Views: 1.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-22 16:18:59 +0100
+
+
+Started GET "/posts.json" for ::1 at 2016-03-22 16:19:01 +0100
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 28]]
+Completed 200 OK in 23ms (Views: 12.7ms | ActiveRecord: 0.5ms)
+
+
+Started PUT "/posts/28/upvote.json" for ::1 at 2016-03-22 16:19:05 +0100
+Processing by PostsController#upvote as JSON
+  Parameters: {"id"=>"28"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 28]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "posts" SET "upvotes" = ?, "updated_at" = ? WHERE "posts"."id" = ?[0m  [["upvotes", 1], ["updated_at", "2016-03-22 15:19:05.057610"], ["id", 28]]
+  [1m[35m (2.5ms)[0m  commit transaction
+Completed 204 No Content in 13ms (ActiveRecord: 3.1ms)
+
+
+Started PUT "/posts/28/upvote.json" for ::1 at 2016-03-22 16:19:05 +0100
+Processing by PostsController#upvote as JSON
+  Parameters: {"id"=>"28"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 28]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "posts" SET "upvotes" = ?, "updated_at" = ? WHERE "posts"."id" = ?  [["upvotes", 2], ["updated_at", "2016-03-22 15:19:05.519832"], ["id", 28]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 11ms (ActiveRecord: 1.6ms)
+
+
+Started PUT "/posts/28/upvote.json" for ::1 at 2016-03-22 16:19:05 +0100
+Processing by PostsController#upvote as JSON
+  Parameters: {"id"=>"28"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 28]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "posts" SET "upvotes" = ?, "updated_at" = ? WHERE "posts"."id" = ?[0m  [["upvotes", 3], ["updated_at", "2016-03-22 15:19:05.692819"], ["id", 28]]
+  [1m[35m (1.1ms)[0m  commit transaction
+Completed 204 No Content in 10ms (ActiveRecord: 1.7ms)
+
+
+Started PUT "/posts/28/upvote.json" for ::1 at 2016-03-22 16:19:05 +0100
+Processing by PostsController#upvote as JSON
+  Parameters: {"id"=>"28"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 28]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "posts" SET "upvotes" = ?, "updated_at" = ? WHERE "posts"."id" = ?  [["upvotes", 4], ["updated_at", "2016-03-22 15:19:05.837357"], ["id", 28]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 10ms (ActiveRecord: 1.7ms)
+
+
+Started PUT "/posts/28/upvote.json" for ::1 at 2016-03-22 16:19:06 +0100
+Processing by PostsController#upvote as JSON
+  Parameters: {"id"=>"28"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 28]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "posts" SET "upvotes" = ?, "updated_at" = ? WHERE "posts"."id" = ?[0m  [["upvotes", 5], ["updated_at", "2016-03-22 15:19:06.202817"], ["id", 28]]
+  [1m[35m (3.9ms)[0m  commit transaction
+Completed 204 No Content in 14ms (ActiveRecord: 4.6ms)
+
+
+Started GET "/" for ::1 at 2016-03-22 16:23:17 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (661.0ms)
+Completed 200 OK in 694ms (Views: 693.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-22 16:23:18 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-22 16:23:18 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-22 16:23:18 +0100
+
+
+Started GET "/assets/angular-devise/devise.self-633c6de0b47e944b4aab238ff501621349023b511d73dd13f10a376b89ea1a1b.js?body=1" for ::1 at 2016-03-22 16:23:18 +0100
+
+
+Started GET "/assets/angular-devise.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-03-22 16:23:18 +0100
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for ::1 at 2016-03-22 16:23:18 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-22 16:23:18 +0100
+
+
+Started GET "/assets/app.self-2a3bdae7d2e1cda260af4adad22673d19be80f9fe96ae246415548c0b3570fca.js?body=1" for ::1 at 2016-03-22 16:23:18 +0100
+
+
+Started GET "/assets/auth/_login.self-048ea316008d583328015593e6313070e5a531a3b1812e0c4598e463a8dba5a4.js?body=1" for ::1 at 2016-03-22 16:23:18 +0100
+
+
+Started GET "/assets/auth/_register.self-5ceeff06355c690e48819a73f4fc11e9fa569821e485dc28bf5424a48c0c2d22.js?body=1" for ::1 at 2016-03-22 16:23:18 +0100
+
+
+Started GET "/assets/auth/authCtrl.self-8ce2832f88973da3f1a71a09e161ad751ccb957dabcae7f9242e99ab8c3464cd.js?body=1" for ::1 at 2016-03-22 16:23:18 +0100
+
+
+Started GET "/assets/home/_home.self-2c7042560a92ab819320af5edf00a28b993d2d93dcb5518338bc2ab623a803fb.js?body=1" for ::1 at 2016-03-22 16:23:18 +0100
+
+
+Started GET "/assets/home/mainCtrl.self-9d0d123f9a5df45a1e8b0bbafc691f469bbcaa054a519de2008ecb973225a9a0.js?body=1" for ::1 at 2016-03-22 16:23:18 +0100
+
+
+Started GET "/assets/nav/_nav.self-b574dbe835f896bce4cff8e853c38e7f6bc56b0e95cb5672db97d1cacb174256.js?body=1" for ::1 at 2016-03-22 16:23:18 +0100
+
+
+Started GET "/assets/nav/navCtrl.self-705e5f1c55ff0871ba60968661e21d69e651b7daac6c6de7168a83b70e675980.js?body=1" for ::1 at 2016-03-22 16:23:18 +0100
+
+
+Started GET "/assets/posts/_posts.self-ffdd363e7b083a5c3e79b26ee572856cd980082cd5dac3ac2e8db7e2cd8f9809.js?body=1" for ::1 at 2016-03-22 16:23:18 +0100
+
+
+Started GET "/assets/posts/posts.self-f0182f4aadcea15d654c0f46d46ff2036a773fdc01a112213dd63de677bc0c49.js?body=1" for ::1 at 2016-03-22 16:23:18 +0100
+
+
+Started GET "/assets/posts/postsCtrl.self-948b225c1af98cbb96b6b1575901c39ab7264c404db5ed57303c156b66ce9235.js?body=1" for ::1 at 2016-03-22 16:23:18 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-22 16:23:18 +0100
+
+
+Started GET "/assets/application.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3.js?body=1" for ::1 at 2016-03-22 16:23:18 +0100
+
+
+Started GET "/posts.json" for ::1 at 2016-03-22 16:23:18 +0100
+Processing by PostsController#index as JSON
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 28]]
+Completed 200 OK in 14ms (Views: 4.4ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users/sign_in.json" for ::1 at 2016-03-22 16:23:18 +0100
+Processing by Devise::SessionsController#create as JSON
+  Parameters: {"user"=>{}, "session"=>{"user"=>{}}}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 201 Created in 16ms (Views: 1.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-22 16:23:18 +0100
+
+
+Started GET "/" for ::1 at 2016-03-22 16:30:07 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (1341.9ms)
+Completed 200 OK in 1498ms (Views: 1438.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-22 16:30:09 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-22 16:30:09 +0100
+
+
+Started GET "/assets/angular-devise/devise.self-633c6de0b47e944b4aab238ff501621349023b511d73dd13f10a376b89ea1a1b.js?body=1" for ::1 at 2016-03-22 16:30:09 +0100
+
+
+Started GET "/assets/angular-devise.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-03-22 16:30:09 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-22 16:30:09 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-22 16:30:09 +0100
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for ::1 at 2016-03-22 16:30:09 +0100
+
+
+Started GET "/assets/app.self-2a3bdae7d2e1cda260af4adad22673d19be80f9fe96ae246415548c0b3570fca.js?body=1" for ::1 at 2016-03-22 16:30:09 +0100
+
+
+Started GET "/assets/auth/authCtrl.self-8ce2832f88973da3f1a71a09e161ad751ccb957dabcae7f9242e99ab8c3464cd.js?body=1" for ::1 at 2016-03-22 16:30:09 +0100
+
+
+Started GET "/assets/auth/_login.self-048ea316008d583328015593e6313070e5a531a3b1812e0c4598e463a8dba5a4.js?body=1" for ::1 at 2016-03-22 16:30:09 +0100
+
+
+Started GET "/assets/home/_home.self-af4a4d4de1d156e79af1f5f9fb1ef8afa95dface4457ad61a56b1895c33604c7.js?body=1" for ::1 at 2016-03-22 16:30:09 +0100
+
+
+Started GET "/assets/auth/_register.self-5ceeff06355c690e48819a73f4fc11e9fa569821e485dc28bf5424a48c0c2d22.js?body=1" for ::1 at 2016-03-22 16:30:09 +0100
+
+
+Started GET "/assets/home/mainCtrl.self-9d0d123f9a5df45a1e8b0bbafc691f469bbcaa054a519de2008ecb973225a9a0.js?body=1" for ::1 at 2016-03-22 16:30:09 +0100
+
+
+Started GET "/assets/nav/_nav.self-b574dbe835f896bce4cff8e853c38e7f6bc56b0e95cb5672db97d1cacb174256.js?body=1" for ::1 at 2016-03-22 16:30:09 +0100
+
+
+Started GET "/assets/nav/navCtrl.self-705e5f1c55ff0871ba60968661e21d69e651b7daac6c6de7168a83b70e675980.js?body=1" for ::1 at 2016-03-22 16:30:09 +0100
+
+
+Started GET "/assets/posts/_posts.self-ffdd363e7b083a5c3e79b26ee572856cd980082cd5dac3ac2e8db7e2cd8f9809.js?body=1" for ::1 at 2016-03-22 16:30:09 +0100
+
+
+Started GET "/assets/posts/posts.self-f0182f4aadcea15d654c0f46d46ff2036a773fdc01a112213dd63de677bc0c49.js?body=1" for ::1 at 2016-03-22 16:30:09 +0100
+
+
+Started GET "/assets/posts/postsCtrl.self-948b225c1af98cbb96b6b1575901c39ab7264c404db5ed57303c156b66ce9235.js?body=1" for ::1 at 2016-03-22 16:30:09 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-22 16:30:09 +0100
+
+
+Started GET "/assets/application.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3.js?body=1" for ::1 at 2016-03-22 16:30:09 +0100
+
+
+Started GET "/posts.json" for ::1 at 2016-03-22 16:30:09 +0100
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (14.5ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mComment Load (1.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 28]]
+Completed 200 OK in 203ms (Views: 117.1ms | ActiveRecord: 16.8ms)
+
+
+Started POST "/users/sign_in.json" for ::1 at 2016-03-22 16:30:09 +0100
+Processing by Devise::SessionsController#create as JSON
+  Parameters: {"user"=>{}, "session"=>{"user"=>{}}}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 201 Created in 68ms (Views: 1.0ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-22 16:30:09 +0100
+
+
+Started PUT "/posts/28/upvote.json" for ::1 at 2016-03-22 16:30:14 +0100
+Processing by PostsController#upvote as JSON
+  Parameters: {"id"=>"28"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 28]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "posts" SET "upvotes" = ?, "updated_at" = ? WHERE "posts"."id" = ?  [["upvotes", 6], ["updated_at", "2016-03-22 15:30:14.084129"], ["id", 28]]
+  [1m[36m (3.0ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 18ms (ActiveRecord: 3.9ms)
+
+
+Started PUT "/posts/28/upvote.json" for ::1 at 2016-03-22 16:30:14 +0100
+Processing by PostsController#upvote as JSON
+  Parameters: {"id"=>"28"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 28]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "posts" SET "upvotes" = ?, "updated_at" = ? WHERE "posts"."id" = ?[0m  [["upvotes", 7], ["updated_at", "2016-03-22 15:30:14.438945"], ["id", 28]]
+  [1m[35m (1.2ms)[0m  commit transaction
+Completed 204 No Content in 11ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/" for ::1 at 2016-03-22 16:30:29 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (1117.9ms)
+Completed 200 OK in 1136ms (Views: 1134.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-22 16:30:31 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-22 16:30:31 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-22 16:30:31 +0100
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for ::1 at 2016-03-22 16:30:31 +0100
+
+
+Started GET "/assets/angular-devise/devise.self-633c6de0b47e944b4aab238ff501621349023b511d73dd13f10a376b89ea1a1b.js?body=1" for ::1 at 2016-03-22 16:30:31 +0100
+
+
+Started GET "/assets/angular-devise.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-03-22 16:30:31 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-22 16:30:31 +0100
+
+
+Started GET "/assets/app.self-2a3bdae7d2e1cda260af4adad22673d19be80f9fe96ae246415548c0b3570fca.js?body=1" for ::1 at 2016-03-22 16:30:31 +0100
+
+
+Started GET "/assets/auth/_login.self-048ea316008d583328015593e6313070e5a531a3b1812e0c4598e463a8dba5a4.js?body=1" for ::1 at 2016-03-22 16:30:31 +0100
+
+
+Started GET "/assets/auth/_register.self-5ceeff06355c690e48819a73f4fc11e9fa569821e485dc28bf5424a48c0c2d22.js?body=1" for ::1 at 2016-03-22 16:30:31 +0100
+
+
+Started GET "/assets/auth/authCtrl.self-8ce2832f88973da3f1a71a09e161ad751ccb957dabcae7f9242e99ab8c3464cd.js?body=1" for ::1 at 2016-03-22 16:30:31 +0100
+
+
+Started GET "/assets/posts/_posts.self-ffdd363e7b083a5c3e79b26ee572856cd980082cd5dac3ac2e8db7e2cd8f9809.js?body=1" for ::1 at 2016-03-22 16:30:31 +0100
+
+
+Started GET "/assets/nav/navCtrl.self-705e5f1c55ff0871ba60968661e21d69e651b7daac6c6de7168a83b70e675980.js?body=1" for ::1 at 2016-03-22 16:30:31 +0100
+
+
+Started GET "/assets/home/mainCtrl.self-9d0d123f9a5df45a1e8b0bbafc691f469bbcaa054a519de2008ecb973225a9a0.js?body=1" for ::1 at 2016-03-22 16:30:31 +0100
+
+
+Started GET "/assets/posts/posts.self-f0182f4aadcea15d654c0f46d46ff2036a773fdc01a112213dd63de677bc0c49.js?body=1" for ::1 at 2016-03-22 16:30:31 +0100
+
+
+Started GET "/assets/home/_home.self-931656b09c4794a988f2d2b94ad0134e623a8bd9839c38b5c608f927c0684998.js?body=1" for ::1 at 2016-03-22 16:30:31 +0100
+
+
+Started GET "/assets/nav/_nav.self-b574dbe835f896bce4cff8e853c38e7f6bc56b0e95cb5672db97d1cacb174256.js?body=1" for ::1 at 2016-03-22 16:30:31 +0100
+
+
+Started GET "/assets/posts/postsCtrl.self-948b225c1af98cbb96b6b1575901c39ab7264c404db5ed57303c156b66ce9235.js?body=1" for ::1 at 2016-03-22 16:30:31 +0100
+
+
+Started GET "/assets/application.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3.js?body=1" for ::1 at 2016-03-22 16:30:31 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-22 16:30:31 +0100
+
+
+Started GET "/posts.json" for ::1 at 2016-03-22 16:30:31 +0100
+Processing by PostsController#index as JSON
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 28]]
+Completed 200 OK in 13ms (Views: 5.1ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users/sign_in.json" for ::1 at 2016-03-22 16:30:31 +0100
+Processing by Devise::SessionsController#create as JSON
+  Parameters: {"user"=>{}, "session"=>{"user"=>{}}}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 201 Created in 15ms (Views: 1.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-22 16:30:31 +0100
+
+
+Started GET "/" for ::1 at 2016-03-22 16:30:46 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (382.6ms)
+Completed 200 OK in 412ms (Views: 411.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-22 16:30:46 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-22 16:30:46 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-22 16:30:46 +0100
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for ::1 at 2016-03-22 16:30:46 +0100
+
+
+Started GET "/assets/app.self-2a3bdae7d2e1cda260af4adad22673d19be80f9fe96ae246415548c0b3570fca.js?body=1" for ::1 at 2016-03-22 16:30:46 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-22 16:30:46 +0100
+
+
+Started GET "/assets/auth/_login.self-048ea316008d583328015593e6313070e5a531a3b1812e0c4598e463a8dba5a4.js?body=1" for ::1 at 2016-03-22 16:30:46 +0100
+
+
+Started GET "/assets/auth/_register.self-5ceeff06355c690e48819a73f4fc11e9fa569821e485dc28bf5424a48c0c2d22.js?body=1" for ::1 at 2016-03-22 16:30:46 +0100
+
+
+Started GET "/assets/angular-devise/devise.self-633c6de0b47e944b4aab238ff501621349023b511d73dd13f10a376b89ea1a1b.js?body=1" for ::1 at 2016-03-22 16:30:46 +0100
+
+
+Started GET "/assets/angular-devise.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-03-22 16:30:46 +0100
+
+
+Started GET "/assets/auth/authCtrl.self-8ce2832f88973da3f1a71a09e161ad751ccb957dabcae7f9242e99ab8c3464cd.js?body=1" for ::1 at 2016-03-22 16:30:46 +0100
+
+
+Started GET "/assets/home/_home.self-f11fd1819db71322d3eab967b6aea2657e6888904ea0e7a16faa13fc7bf5339d.js?body=1" for ::1 at 2016-03-22 16:30:46 +0100
+
+
+Started GET "/assets/home/mainCtrl.self-9d0d123f9a5df45a1e8b0bbafc691f469bbcaa054a519de2008ecb973225a9a0.js?body=1" for ::1 at 2016-03-22 16:30:46 +0100
+
+
+Started GET "/assets/nav/_nav.self-b574dbe835f896bce4cff8e853c38e7f6bc56b0e95cb5672db97d1cacb174256.js?body=1" for ::1 at 2016-03-22 16:30:46 +0100
+
+
+Started GET "/assets/nav/navCtrl.self-705e5f1c55ff0871ba60968661e21d69e651b7daac6c6de7168a83b70e675980.js?body=1" for ::1 at 2016-03-22 16:30:46 +0100
+
+
+Started GET "/assets/posts/_posts.self-ffdd363e7b083a5c3e79b26ee572856cd980082cd5dac3ac2e8db7e2cd8f9809.js?body=1" for ::1 at 2016-03-22 16:30:46 +0100
+
+
+Started GET "/assets/posts/posts.self-f0182f4aadcea15d654c0f46d46ff2036a773fdc01a112213dd63de677bc0c49.js?body=1" for ::1 at 2016-03-22 16:30:46 +0100
+
+
+Started GET "/assets/posts/postsCtrl.self-948b225c1af98cbb96b6b1575901c39ab7264c404db5ed57303c156b66ce9235.js?body=1" for ::1 at 2016-03-22 16:30:46 +0100
+
+
+Started GET "/assets/application.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3.js?body=1" for ::1 at 2016-03-22 16:30:46 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-22 16:30:46 +0100
+
+
+Started GET "/posts.json" for ::1 at 2016-03-22 16:30:47 +0100
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 28]]
+Completed 200 OK in 14ms (Views: 6.1ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users/sign_in.json" for ::1 at 2016-03-22 16:30:47 +0100
+Processing by Devise::SessionsController#create as JSON
+  Parameters: {"user"=>{}, "session"=>{"user"=>{}}}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 201 Created in 13ms (Views: 1.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-22 16:30:47 +0100
+
+
+Started GET "/" for ::1 at 2016-03-22 16:31:04 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (297.5ms)
+Completed 200 OK in 308ms (Views: 307.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-22 16:31:04 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-22 16:31:04 +0100
+
+
+Started GET "/assets/angular-devise.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-03-22 16:31:04 +0100
+
+
+Started GET "/assets/angular-devise/devise.self-633c6de0b47e944b4aab238ff501621349023b511d73dd13f10a376b89ea1a1b.js?body=1" for ::1 at 2016-03-22 16:31:04 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-22 16:31:04 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-22 16:31:04 +0100
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for ::1 at 2016-03-22 16:31:04 +0100
+
+
+Started GET "/assets/auth/_login.self-048ea316008d583328015593e6313070e5a531a3b1812e0c4598e463a8dba5a4.js?body=1" for ::1 at 2016-03-22 16:31:04 +0100
+
+
+Started GET "/assets/auth/_register.self-5ceeff06355c690e48819a73f4fc11e9fa569821e485dc28bf5424a48c0c2d22.js?body=1" for ::1 at 2016-03-22 16:31:04 +0100
+
+
+Started GET "/assets/app.self-2a3bdae7d2e1cda260af4adad22673d19be80f9fe96ae246415548c0b3570fca.js?body=1" for ::1 at 2016-03-22 16:31:04 +0100
+
+
+Started GET "/assets/auth/authCtrl.self-8ce2832f88973da3f1a71a09e161ad751ccb957dabcae7f9242e99ab8c3464cd.js?body=1" for ::1 at 2016-03-22 16:31:04 +0100
+
+
+Started GET "/assets/home/_home.self-598599a41b16ba23387544b683856951dd302ccac4492649542ccefe12e51570.js?body=1" for ::1 at 2016-03-22 16:31:04 +0100
+
+
+Started GET "/assets/home/mainCtrl.self-9d0d123f9a5df45a1e8b0bbafc691f469bbcaa054a519de2008ecb973225a9a0.js?body=1" for ::1 at 2016-03-22 16:31:04 +0100
+
+
+Started GET "/assets/nav/_nav.self-b574dbe835f896bce4cff8e853c38e7f6bc56b0e95cb5672db97d1cacb174256.js?body=1" for ::1 at 2016-03-22 16:31:04 +0100
+
+
+Started GET "/assets/nav/navCtrl.self-705e5f1c55ff0871ba60968661e21d69e651b7daac6c6de7168a83b70e675980.js?body=1" for ::1 at 2016-03-22 16:31:04 +0100
+
+
+Started GET "/assets/posts/_posts.self-ffdd363e7b083a5c3e79b26ee572856cd980082cd5dac3ac2e8db7e2cd8f9809.js?body=1" for ::1 at 2016-03-22 16:31:04 +0100
+
+
+Started GET "/assets/posts/postsCtrl.self-948b225c1af98cbb96b6b1575901c39ab7264c404db5ed57303c156b66ce9235.js?body=1" for ::1 at 2016-03-22 16:31:04 +0100
+
+
+Started GET "/assets/posts/posts.self-f0182f4aadcea15d654c0f46d46ff2036a773fdc01a112213dd63de677bc0c49.js?body=1" for ::1 at 2016-03-22 16:31:04 +0100
+
+
+Started GET "/assets/application.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3.js?body=1" for ::1 at 2016-03-22 16:31:04 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-22 16:31:04 +0100
+
+
+Started GET "/posts.json" for ::1 at 2016-03-22 16:31:04 +0100
+Processing by PostsController#index as JSON
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 28]]
+Completed 200 OK in 15ms (Views: 5.0ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users/sign_in.json" for ::1 at 2016-03-22 16:31:04 +0100
+Processing by Devise::SessionsController#create as JSON
+  Parameters: {"user"=>{}, "session"=>{"user"=>{}}}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 201 Created in 15ms (Views: 1.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-22 16:31:05 +0100
+
+
+Started GET "/" for ::1 at 2016-03-22 16:31:19 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (282.0ms)
+Completed 200 OK in 294ms (Views: 293.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-22 16:31:19 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-22 16:31:19 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-22 16:31:19 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-22 16:31:19 +0100
+
+
+Started GET "/assets/angular-devise.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-03-22 16:31:19 +0100
+
+
+Started GET "/assets/angular-devise/devise.self-633c6de0b47e944b4aab238ff501621349023b511d73dd13f10a376b89ea1a1b.js?body=1" for ::1 at 2016-03-22 16:31:19 +0100
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for ::1 at 2016-03-22 16:31:19 +0100
+
+
+Started GET "/assets/app.self-2a3bdae7d2e1cda260af4adad22673d19be80f9fe96ae246415548c0b3570fca.js?body=1" for ::1 at 2016-03-22 16:31:19 +0100
+
+
+Started GET "/assets/auth/_login.self-048ea316008d583328015593e6313070e5a531a3b1812e0c4598e463a8dba5a4.js?body=1" for ::1 at 2016-03-22 16:31:19 +0100
+
+
+Started GET "/assets/auth/_register.self-5ceeff06355c690e48819a73f4fc11e9fa569821e485dc28bf5424a48c0c2d22.js?body=1" for ::1 at 2016-03-22 16:31:19 +0100
+
+
+Started GET "/assets/auth/authCtrl.self-8ce2832f88973da3f1a71a09e161ad751ccb957dabcae7f9242e99ab8c3464cd.js?body=1" for ::1 at 2016-03-22 16:31:19 +0100
+
+
+Started GET "/assets/home/_home.self-4d3a233fe00e03cfc16ad2bcee810d3967a2594fe3dc9fc8222b73100a251509.js?body=1" for ::1 at 2016-03-22 16:31:19 +0100
+
+
+Started GET "/assets/home/mainCtrl.self-9d0d123f9a5df45a1e8b0bbafc691f469bbcaa054a519de2008ecb973225a9a0.js?body=1" for ::1 at 2016-03-22 16:31:19 +0100
+
+
+Started GET "/assets/nav/_nav.self-b574dbe835f896bce4cff8e853c38e7f6bc56b0e95cb5672db97d1cacb174256.js?body=1" for ::1 at 2016-03-22 16:31:19 +0100
+
+
+Started GET "/assets/nav/navCtrl.self-705e5f1c55ff0871ba60968661e21d69e651b7daac6c6de7168a83b70e675980.js?body=1" for ::1 at 2016-03-22 16:31:19 +0100
+
+
+Started GET "/assets/posts/_posts.self-ffdd363e7b083a5c3e79b26ee572856cd980082cd5dac3ac2e8db7e2cd8f9809.js?body=1" for ::1 at 2016-03-22 16:31:19 +0100
+
+
+Started GET "/assets/posts/posts.self-f0182f4aadcea15d654c0f46d46ff2036a773fdc01a112213dd63de677bc0c49.js?body=1" for ::1 at 2016-03-22 16:31:19 +0100
+
+
+Started GET "/assets/posts/postsCtrl.self-948b225c1af98cbb96b6b1575901c39ab7264c404db5ed57303c156b66ce9235.js?body=1" for ::1 at 2016-03-22 16:31:19 +0100
+
+
+Started GET "/assets/application.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3.js?body=1" for ::1 at 2016-03-22 16:31:19 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-22 16:31:19 +0100
+
+
+Started GET "/posts.json" for ::1 at 2016-03-22 16:31:19 +0100
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 28]]
+Completed 200 OK in 10ms (Views: 4.6ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users/sign_in.json" for ::1 at 2016-03-22 16:31:19 +0100
+Processing by Devise::SessionsController#create as JSON
+  Parameters: {"user"=>{}, "session"=>{"user"=>{}}}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 201 Created in 12ms (Views: 1.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-22 16:31:20 +0100
+
+
+Started GET "/" for ::1 at 2016-03-22 16:31:28 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (296.2ms)
+Completed 200 OK in 312ms (Views: 311.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-22 16:31:29 +0100
+
+
+Started GET "/assets/angular-devise.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-03-22 16:31:29 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-22 16:31:29 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-22 16:31:29 +0100
+
+
+Started GET "/assets/angular-devise/devise.self-633c6de0b47e944b4aab238ff501621349023b511d73dd13f10a376b89ea1a1b.js?body=1" for ::1 at 2016-03-22 16:31:29 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-22 16:31:29 +0100
+
+
+Started GET "/assets/auth/_login.self-048ea316008d583328015593e6313070e5a531a3b1812e0c4598e463a8dba5a4.js?body=1" for ::1 at 2016-03-22 16:31:29 +0100
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for ::1 at 2016-03-22 16:31:29 +0100
+
+
+Started GET "/assets/auth/_register.self-5ceeff06355c690e48819a73f4fc11e9fa569821e485dc28bf5424a48c0c2d22.js?body=1" for ::1 at 2016-03-22 16:31:29 +0100
+
+
+Started GET "/assets/app.self-2a3bdae7d2e1cda260af4adad22673d19be80f9fe96ae246415548c0b3570fca.js?body=1" for ::1 at 2016-03-22 16:31:29 +0100
+
+
+Started GET "/assets/auth/authCtrl.self-8ce2832f88973da3f1a71a09e161ad751ccb957dabcae7f9242e99ab8c3464cd.js?body=1" for ::1 at 2016-03-22 16:31:29 +0100
+
+
+Started GET "/assets/home/_home.self-a2b60c26a18159ac94a85d34f6813426b414d4faa9c9402cbf17b5d917d60eae.js?body=1" for ::1 at 2016-03-22 16:31:29 +0100
+
+
+Started GET "/assets/home/mainCtrl.self-9d0d123f9a5df45a1e8b0bbafc691f469bbcaa054a519de2008ecb973225a9a0.js?body=1" for ::1 at 2016-03-22 16:31:29 +0100
+
+
+Started GET "/assets/nav/_nav.self-b574dbe835f896bce4cff8e853c38e7f6bc56b0e95cb5672db97d1cacb174256.js?body=1" for ::1 at 2016-03-22 16:31:29 +0100
+
+
+Started GET "/assets/nav/navCtrl.self-705e5f1c55ff0871ba60968661e21d69e651b7daac6c6de7168a83b70e675980.js?body=1" for ::1 at 2016-03-22 16:31:29 +0100
+
+
+Started GET "/assets/posts/posts.self-f0182f4aadcea15d654c0f46d46ff2036a773fdc01a112213dd63de677bc0c49.js?body=1" for ::1 at 2016-03-22 16:31:29 +0100
+
+
+Started GET "/assets/posts/postsCtrl.self-948b225c1af98cbb96b6b1575901c39ab7264c404db5ed57303c156b66ce9235.js?body=1" for ::1 at 2016-03-22 16:31:29 +0100
+
+
+Started GET "/assets/posts/_posts.self-ffdd363e7b083a5c3e79b26ee572856cd980082cd5dac3ac2e8db7e2cd8f9809.js?body=1" for ::1 at 2016-03-22 16:31:29 +0100
+
+
+Started GET "/assets/application.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3.js?body=1" for ::1 at 2016-03-22 16:31:29 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-22 16:31:29 +0100
+
+
+Started GET "/posts.json" for ::1 at 2016-03-22 16:31:29 +0100
+Processing by PostsController#index as JSON
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 28]]
+Completed 200 OK in 14ms (Views: 4.4ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users/sign_in.json" for ::1 at 2016-03-22 16:31:29 +0100
+Processing by Devise::SessionsController#create as JSON
+  Parameters: {"user"=>{}, "session"=>{"user"=>{}}}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 201 Created in 16ms (Views: 1.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-22 16:31:29 +0100
+
+
+Started GET "/" for ::1 at 2016-03-22 16:31:35 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (32.7ms)
+Completed 200 OK in 48ms (Views: 47.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-22 16:31:35 +0100
+
+
+Started GET "/assets/angular-devise.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-03-22 16:31:35 +0100
+
+
+Started GET "/assets/angular-devise/devise.self-633c6de0b47e944b4aab238ff501621349023b511d73dd13f10a376b89ea1a1b.js?body=1" for ::1 at 2016-03-22 16:31:35 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-22 16:31:35 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-22 16:31:35 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-22 16:31:35 +0100
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for ::1 at 2016-03-22 16:31:35 +0100
+
+
+Started GET "/assets/app.self-2a3bdae7d2e1cda260af4adad22673d19be80f9fe96ae246415548c0b3570fca.js?body=1" for ::1 at 2016-03-22 16:31:35 +0100
+
+
+Started GET "/assets/auth/_login.self-048ea316008d583328015593e6313070e5a531a3b1812e0c4598e463a8dba5a4.js?body=1" for ::1 at 2016-03-22 16:31:35 +0100
+
+
+Started GET "/assets/auth/_register.self-5ceeff06355c690e48819a73f4fc11e9fa569821e485dc28bf5424a48c0c2d22.js?body=1" for ::1 at 2016-03-22 16:31:35 +0100
+
+
+Started GET "/assets/auth/authCtrl.self-8ce2832f88973da3f1a71a09e161ad751ccb957dabcae7f9242e99ab8c3464cd.js?body=1" for ::1 at 2016-03-22 16:31:35 +0100
+
+
+Started GET "/assets/home/_home.self-4d3a233fe00e03cfc16ad2bcee810d3967a2594fe3dc9fc8222b73100a251509.js?body=1" for ::1 at 2016-03-22 16:31:35 +0100
+
+
+Started GET "/assets/home/mainCtrl.self-9d0d123f9a5df45a1e8b0bbafc691f469bbcaa054a519de2008ecb973225a9a0.js?body=1" for ::1 at 2016-03-22 16:31:35 +0100
+
+
+Started GET "/assets/nav/_nav.self-b574dbe835f896bce4cff8e853c38e7f6bc56b0e95cb5672db97d1cacb174256.js?body=1" for ::1 at 2016-03-22 16:31:35 +0100
+
+
+Started GET "/assets/nav/navCtrl.self-705e5f1c55ff0871ba60968661e21d69e651b7daac6c6de7168a83b70e675980.js?body=1" for ::1 at 2016-03-22 16:31:35 +0100
+
+
+Started GET "/assets/posts/_posts.self-ffdd363e7b083a5c3e79b26ee572856cd980082cd5dac3ac2e8db7e2cd8f9809.js?body=1" for ::1 at 2016-03-22 16:31:35 +0100
+
+
+Started GET "/assets/posts/posts.self-f0182f4aadcea15d654c0f46d46ff2036a773fdc01a112213dd63de677bc0c49.js?body=1" for ::1 at 2016-03-22 16:31:35 +0100
+
+
+Started GET "/assets/application.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3.js?body=1" for ::1 at 2016-03-22 16:31:35 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-22 16:31:35 +0100
+
+
+Started GET "/assets/posts/postsCtrl.self-948b225c1af98cbb96b6b1575901c39ab7264c404db5ed57303c156b66ce9235.js?body=1" for ::1 at 2016-03-22 16:31:35 +0100
+
+
+Started GET "/posts.json" for ::1 at 2016-03-22 16:31:36 +0100
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 28]]
+Completed 200 OK in 12ms (Views: 4.5ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users/sign_in.json" for ::1 at 2016-03-22 16:31:36 +0100
+Processing by Devise::SessionsController#create as JSON
+  Parameters: {"user"=>{}, "session"=>{"user"=>{}}}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 201 Created in 12ms (Views: 1.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-22 16:31:36 +0100
+
+
+Started GET "/" for ::1 at 2016-03-22 16:31:52 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (289.4ms)
+Completed 200 OK in 300ms (Views: 299.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-22 16:31:53 +0100
+
+
+Started GET "/assets/angular-devise.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-03-22 16:31:53 +0100
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for ::1 at 2016-03-22 16:31:53 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-22 16:31:53 +0100
+
+
+Started GET "/assets/app.self-2a3bdae7d2e1cda260af4adad22673d19be80f9fe96ae246415548c0b3570fca.js?body=1" for ::1 at 2016-03-22 16:31:53 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-22 16:31:53 +0100
+
+
+Started GET "/assets/angular-devise/devise.self-633c6de0b47e944b4aab238ff501621349023b511d73dd13f10a376b89ea1a1b.js?body=1" for ::1 at 2016-03-22 16:31:53 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-22 16:31:53 +0100
+
+
+Started GET "/assets/auth/_login.self-048ea316008d583328015593e6313070e5a531a3b1812e0c4598e463a8dba5a4.js?body=1" for ::1 at 2016-03-22 16:31:53 +0100
+
+
+Started GET "/assets/auth/_register.self-5ceeff06355c690e48819a73f4fc11e9fa569821e485dc28bf5424a48c0c2d22.js?body=1" for ::1 at 2016-03-22 16:31:53 +0100
+
+
+Started GET "/assets/auth/authCtrl.self-8ce2832f88973da3f1a71a09e161ad751ccb957dabcae7f9242e99ab8c3464cd.js?body=1" for ::1 at 2016-03-22 16:31:53 +0100
+
+
+Started GET "/assets/home/_home.self-dd7f34f781c9377f255c6113d7fb43297fc1cbf15d70ccc5f13835034a5ecfa6.js?body=1" for ::1 at 2016-03-22 16:31:53 +0100
+
+
+Started GET "/assets/home/mainCtrl.self-9d0d123f9a5df45a1e8b0bbafc691f469bbcaa054a519de2008ecb973225a9a0.js?body=1" for ::1 at 2016-03-22 16:31:53 +0100
+
+
+Started GET "/assets/nav/_nav.self-b574dbe835f896bce4cff8e853c38e7f6bc56b0e95cb5672db97d1cacb174256.js?body=1" for ::1 at 2016-03-22 16:31:53 +0100
+
+
+Started GET "/assets/nav/navCtrl.self-705e5f1c55ff0871ba60968661e21d69e651b7daac6c6de7168a83b70e675980.js?body=1" for ::1 at 2016-03-22 16:31:53 +0100
+
+
+Started GET "/assets/posts/_posts.self-ffdd363e7b083a5c3e79b26ee572856cd980082cd5dac3ac2e8db7e2cd8f9809.js?body=1" for ::1 at 2016-03-22 16:31:53 +0100
+
+
+Started GET "/assets/posts/postsCtrl.self-948b225c1af98cbb96b6b1575901c39ab7264c404db5ed57303c156b66ce9235.js?body=1" for ::1 at 2016-03-22 16:31:53 +0100
+
+
+Started GET "/assets/posts/posts.self-f0182f4aadcea15d654c0f46d46ff2036a773fdc01a112213dd63de677bc0c49.js?body=1" for ::1 at 2016-03-22 16:31:53 +0100
+
+
+Started GET "/assets/application.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3.js?body=1" for ::1 at 2016-03-22 16:31:53 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-22 16:31:53 +0100
+
+
+Started GET "/posts.json" for ::1 at 2016-03-22 16:31:53 +0100
+Processing by PostsController#index as JSON
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 28]]
+Completed 200 OK in 17ms (Views: 8.3ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users/sign_in.json" for ::1 at 2016-03-22 16:31:53 +0100
+Processing by Devise::SessionsController#create as JSON
+  Parameters: {"user"=>{}, "session"=>{"user"=>{}}}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 201 Created in 12ms (Views: 1.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-22 16:31:53 +0100
+
+
+Started GET "/" for ::1 at 2016-03-22 16:32:02 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (293.6ms)
+Completed 200 OK in 309ms (Views: 308.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-22 16:32:03 +0100
+
+
+Started GET "/assets/angular-devise.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-03-22 16:32:03 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-22 16:32:03 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-22 16:32:03 +0100
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for ::1 at 2016-03-22 16:32:03 +0100
+
+
+Started GET "/assets/app.self-2a3bdae7d2e1cda260af4adad22673d19be80f9fe96ae246415548c0b3570fca.js?body=1" for ::1 at 2016-03-22 16:32:03 +0100
+
+
+Started GET "/assets/angular-devise/devise.self-633c6de0b47e944b4aab238ff501621349023b511d73dd13f10a376b89ea1a1b.js?body=1" for ::1 at 2016-03-22 16:32:03 +0100
+
+
+Started GET "/assets/auth/_login.self-048ea316008d583328015593e6313070e5a531a3b1812e0c4598e463a8dba5a4.js?body=1" for ::1 at 2016-03-22 16:32:03 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-22 16:32:03 +0100
+
+
+Started GET "/assets/auth/_register.self-5ceeff06355c690e48819a73f4fc11e9fa569821e485dc28bf5424a48c0c2d22.js?body=1" for ::1 at 2016-03-22 16:32:03 +0100
+
+
+Started GET "/assets/auth/authCtrl.self-8ce2832f88973da3f1a71a09e161ad751ccb957dabcae7f9242e99ab8c3464cd.js?body=1" for ::1 at 2016-03-22 16:32:03 +0100
+
+
+Started GET "/assets/home/_home.self-72564aa3bd7f5f82cd8006bac8685e057e9c2b1308e90bb8cd3ad5d59d9b876c.js?body=1" for ::1 at 2016-03-22 16:32:03 +0100
+
+
+Started GET "/assets/home/mainCtrl.self-9d0d123f9a5df45a1e8b0bbafc691f469bbcaa054a519de2008ecb973225a9a0.js?body=1" for ::1 at 2016-03-22 16:32:03 +0100
+
+
+Started GET "/assets/nav/_nav.self-b574dbe835f896bce4cff8e853c38e7f6bc56b0e95cb5672db97d1cacb174256.js?body=1" for ::1 at 2016-03-22 16:32:03 +0100
+
+
+Started GET "/assets/posts/_posts.self-ffdd363e7b083a5c3e79b26ee572856cd980082cd5dac3ac2e8db7e2cd8f9809.js?body=1" for ::1 at 2016-03-22 16:32:03 +0100
+
+
+Started GET "/assets/posts/posts.self-f0182f4aadcea15d654c0f46d46ff2036a773fdc01a112213dd63de677bc0c49.js?body=1" for ::1 at 2016-03-22 16:32:03 +0100
+
+
+Started GET "/assets/nav/navCtrl.self-705e5f1c55ff0871ba60968661e21d69e651b7daac6c6de7168a83b70e675980.js?body=1" for ::1 at 2016-03-22 16:32:03 +0100
+
+
+Started GET "/assets/application.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3.js?body=1" for ::1 at 2016-03-22 16:32:03 +0100
+
+
+Started GET "/assets/posts/postsCtrl.self-948b225c1af98cbb96b6b1575901c39ab7264c404db5ed57303c156b66ce9235.js?body=1" for ::1 at 2016-03-22 16:32:03 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-22 16:32:03 +0100
+
+
+Started GET "/posts.json" for ::1 at 2016-03-22 16:32:03 +0100
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 28]]
+Completed 200 OK in 16ms (Views: 5.9ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users/sign_in.json" for ::1 at 2016-03-22 16:32:03 +0100
+Processing by Devise::SessionsController#create as JSON
+  Parameters: {"user"=>{}, "session"=>{"user"=>{}}}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 201 Created in 12ms (Views: 1.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-22 16:32:03 +0100
+
+
+Started GET "/" for ::1 at 2016-03-22 16:32:18 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (276.7ms)
+Completed 200 OK in 291ms (Views: 290.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-22 16:32:18 +0100
+
+
+Started GET "/assets/angular-devise/devise.self-633c6de0b47e944b4aab238ff501621349023b511d73dd13f10a376b89ea1a1b.js?body=1" for ::1 at 2016-03-22 16:32:18 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-22 16:32:18 +0100
+
+
+Started GET "/assets/app.self-2a3bdae7d2e1cda260af4adad22673d19be80f9fe96ae246415548c0b3570fca.js?body=1" for ::1 at 2016-03-22 16:32:18 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-22 16:32:18 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-22 16:32:18 +0100
+
+
+Started GET "/assets/angular-devise.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-03-22 16:32:18 +0100
+
+
+Started GET "/assets/auth/_login.self-048ea316008d583328015593e6313070e5a531a3b1812e0c4598e463a8dba5a4.js?body=1" for ::1 at 2016-03-22 16:32:18 +0100
+
+
+Started GET "/assets/auth/_register.self-5ceeff06355c690e48819a73f4fc11e9fa569821e485dc28bf5424a48c0c2d22.js?body=1" for ::1 at 2016-03-22 16:32:18 +0100
+
+
+Started GET "/assets/auth/authCtrl.self-8ce2832f88973da3f1a71a09e161ad751ccb957dabcae7f9242e99ab8c3464cd.js?body=1" for ::1 at 2016-03-22 16:32:18 +0100
+
+
+Started GET "/assets/home/_home.self-4046ee3f8a9326f5393fd1afa13abfba5a045536da2f3da1617df1c67c2728f6.js?body=1" for ::1 at 2016-03-22 16:32:18 +0100
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for ::1 at 2016-03-22 16:32:18 +0100
+
+
+Started GET "/assets/home/mainCtrl.self-9d0d123f9a5df45a1e8b0bbafc691f469bbcaa054a519de2008ecb973225a9a0.js?body=1" for ::1 at 2016-03-22 16:32:19 +0100
+
+
+Started GET "/assets/nav/_nav.self-b574dbe835f896bce4cff8e853c38e7f6bc56b0e95cb5672db97d1cacb174256.js?body=1" for ::1 at 2016-03-22 16:32:19 +0100
+
+
+Started GET "/assets/nav/navCtrl.self-705e5f1c55ff0871ba60968661e21d69e651b7daac6c6de7168a83b70e675980.js?body=1" for ::1 at 2016-03-22 16:32:19 +0100
+
+
+Started GET "/assets/posts/_posts.self-ffdd363e7b083a5c3e79b26ee572856cd980082cd5dac3ac2e8db7e2cd8f9809.js?body=1" for ::1 at 2016-03-22 16:32:19 +0100
+
+
+Started GET "/assets/posts/posts.self-f0182f4aadcea15d654c0f46d46ff2036a773fdc01a112213dd63de677bc0c49.js?body=1" for ::1 at 2016-03-22 16:32:19 +0100
+
+
+Started GET "/assets/application.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3.js?body=1" for ::1 at 2016-03-22 16:32:19 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-22 16:32:19 +0100
+
+
+Started GET "/assets/posts/postsCtrl.self-948b225c1af98cbb96b6b1575901c39ab7264c404db5ed57303c156b66ce9235.js?body=1" for ::1 at 2016-03-22 16:32:19 +0100
+
+
+Started GET "/posts.json" for ::1 at 2016-03-22 16:32:19 +0100
+Processing by PostsController#index as JSON
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 28]]
+Completed 200 OK in 10ms (Views: 4.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/users/sign_in.json" for ::1 at 2016-03-22 16:32:19 +0100
+Processing by Devise::SessionsController#create as JSON
+  Parameters: {"user"=>{}, "session"=>{"user"=>{}}}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 201 Created in 11ms (Views: 1.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-22 16:32:19 +0100
+
+
+Started GET "/posts/28.json" for ::1 at 2016-03-22 16:32:27 +0100
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"28"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 28]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 28]]
+Completed 200 OK in 21ms (Views: 4.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-03-22 16:32:53 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (268.4ms)
+Completed 200 OK in 280ms (Views: 279.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-22 16:32:54 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-22 16:32:54 +0100
+
+
+Started GET "/assets/angular-devise/devise.self-633c6de0b47e944b4aab238ff501621349023b511d73dd13f10a376b89ea1a1b.js?body=1" for ::1 at 2016-03-22 16:32:54 +0100
+
+
+Started GET "/assets/angular-devise.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-03-22 16:32:54 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-22 16:32:54 +0100
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for ::1 at 2016-03-22 16:32:54 +0100
+
+
+Started GET "/assets/app.self-2a3bdae7d2e1cda260af4adad22673d19be80f9fe96ae246415548c0b3570fca.js?body=1" for ::1 at 2016-03-22 16:32:54 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-22 16:32:54 +0100
+
+
+Started GET "/assets/auth/_login.self-048ea316008d583328015593e6313070e5a531a3b1812e0c4598e463a8dba5a4.js?body=1" for ::1 at 2016-03-22 16:32:54 +0100
+
+
+Started GET "/assets/auth/_register.self-5ceeff06355c690e48819a73f4fc11e9fa569821e485dc28bf5424a48c0c2d22.js?body=1" for ::1 at 2016-03-22 16:32:54 +0100
+
+
+Started GET "/assets/auth/authCtrl.self-8ce2832f88973da3f1a71a09e161ad751ccb957dabcae7f9242e99ab8c3464cd.js?body=1" for ::1 at 2016-03-22 16:32:54 +0100
+
+
+Started GET "/assets/home/_home.self-4046ee3f8a9326f5393fd1afa13abfba5a045536da2f3da1617df1c67c2728f6.js?body=1" for ::1 at 2016-03-22 16:32:54 +0100
+
+
+Started GET "/assets/home/mainCtrl.self-9d0d123f9a5df45a1e8b0bbafc691f469bbcaa054a519de2008ecb973225a9a0.js?body=1" for ::1 at 2016-03-22 16:32:54 +0100
+
+
+Started GET "/assets/nav/_nav.self-b574dbe835f896bce4cff8e853c38e7f6bc56b0e95cb5672db97d1cacb174256.js?body=1" for ::1 at 2016-03-22 16:32:54 +0100
+
+
+Started GET "/assets/nav/navCtrl.self-705e5f1c55ff0871ba60968661e21d69e651b7daac6c6de7168a83b70e675980.js?body=1" for ::1 at 2016-03-22 16:32:54 +0100
+
+
+Started GET "/assets/posts/_posts.self-6b830bbd76ad30be75c146b0cf1fa64b99179db24e63612e599967e31f426e1e.js?body=1" for ::1 at 2016-03-22 16:32:54 +0100
+
+
+Started GET "/assets/posts/posts.self-f0182f4aadcea15d654c0f46d46ff2036a773fdc01a112213dd63de677bc0c49.js?body=1" for ::1 at 2016-03-22 16:32:54 +0100
+
+
+Started GET "/assets/posts/postsCtrl.self-948b225c1af98cbb96b6b1575901c39ab7264c404db5ed57303c156b66ce9235.js?body=1" for ::1 at 2016-03-22 16:32:54 +0100
+
+
+Started GET "/assets/application.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3.js?body=1" for ::1 at 2016-03-22 16:32:54 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-22 16:32:54 +0100
+
+
+Started GET "/posts/28.json" for ::1 at 2016-03-22 16:32:54 +0100
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"28"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 28]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 28]]
+Completed 200 OK in 14ms (Views: 5.3ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users/sign_in.json" for ::1 at 2016-03-22 16:32:54 +0100
+Processing by Devise::SessionsController#create as JSON
+  Parameters: {"user"=>{}, "session"=>{"user"=>{}}}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 201 Created in 15ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-22 16:32:54 +0100
+
+
+Started GET "/" for ::1 at 2016-03-22 16:32:59 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (321.5ms)
+Completed 200 OK in 333ms (Views: 331.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-22 16:33:00 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-22 16:33:00 +0100
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for ::1 at 2016-03-22 16:33:00 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-22 16:33:00 +0100
+
+
+Started GET "/assets/app.self-2a3bdae7d2e1cda260af4adad22673d19be80f9fe96ae246415548c0b3570fca.js?body=1" for ::1 at 2016-03-22 16:33:00 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-22 16:33:00 +0100
+
+
+Started GET "/assets/angular-devise/devise.self-633c6de0b47e944b4aab238ff501621349023b511d73dd13f10a376b89ea1a1b.js?body=1" for ::1 at 2016-03-22 16:33:00 +0100
+
+
+Started GET "/assets/angular-devise.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-03-22 16:33:00 +0100
+
+
+Started GET "/assets/auth/_login.self-048ea316008d583328015593e6313070e5a531a3b1812e0c4598e463a8dba5a4.js?body=1" for ::1 at 2016-03-22 16:33:00 +0100
+
+
+Started GET "/assets/auth/_register.self-5ceeff06355c690e48819a73f4fc11e9fa569821e485dc28bf5424a48c0c2d22.js?body=1" for ::1 at 2016-03-22 16:33:00 +0100
+
+
+Started GET "/assets/auth/authCtrl.self-8ce2832f88973da3f1a71a09e161ad751ccb957dabcae7f9242e99ab8c3464cd.js?body=1" for ::1 at 2016-03-22 16:33:00 +0100
+
+
+Started GET "/assets/home/_home.self-4046ee3f8a9326f5393fd1afa13abfba5a045536da2f3da1617df1c67c2728f6.js?body=1" for ::1 at 2016-03-22 16:33:00 +0100
+
+
+Started GET "/assets/home/mainCtrl.self-9d0d123f9a5df45a1e8b0bbafc691f469bbcaa054a519de2008ecb973225a9a0.js?body=1" for ::1 at 2016-03-22 16:33:00 +0100
+
+
+Started GET "/assets/nav/_nav.self-b574dbe835f896bce4cff8e853c38e7f6bc56b0e95cb5672db97d1cacb174256.js?body=1" for ::1 at 2016-03-22 16:33:00 +0100
+
+
+Started GET "/assets/nav/navCtrl.self-705e5f1c55ff0871ba60968661e21d69e651b7daac6c6de7168a83b70e675980.js?body=1" for ::1 at 2016-03-22 16:33:00 +0100
+
+
+Started GET "/assets/posts/_posts.self-b07276b84065612d9cafe822d05687a6df8598580e48ddc97bb6296826f880ca.js?body=1" for ::1 at 2016-03-22 16:33:00 +0100
+
+
+Started GET "/assets/posts/posts.self-f0182f4aadcea15d654c0f46d46ff2036a773fdc01a112213dd63de677bc0c49.js?body=1" for ::1 at 2016-03-22 16:33:00 +0100
+
+
+Started GET "/assets/posts/postsCtrl.self-948b225c1af98cbb96b6b1575901c39ab7264c404db5ed57303c156b66ce9235.js?body=1" for ::1 at 2016-03-22 16:33:00 +0100
+
+
+Started GET "/assets/application.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3.js?body=1" for ::1 at 2016-03-22 16:33:00 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-22 16:33:00 +0100
+
+
+Started GET "/posts/28.json" for ::1 at 2016-03-22 16:33:00 +0100
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"28"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 28]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 28]]
+Completed 200 OK in 10ms (Views: 2.7ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/users/sign_in.json" for ::1 at 2016-03-22 16:33:00 +0100
+Processing by Devise::SessionsController#create as JSON
+  Parameters: {"user"=>{}, "session"=>{"user"=>{}}}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 201 Created in 11ms (Views: 1.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-22 16:33:00 +0100
+
+
+Started GET "/" for ::1 at 2016-03-22 16:33:06 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (270.1ms)
+Completed 200 OK in 282ms (Views: 281.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-22 16:33:06 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-22 16:33:06 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-22 16:33:06 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-22 16:33:06 +0100
+
+
+Started GET "/assets/angular-devise/devise.self-633c6de0b47e944b4aab238ff501621349023b511d73dd13f10a376b89ea1a1b.js?body=1" for ::1 at 2016-03-22 16:33:06 +0100
+
+
+Started GET "/assets/angular-devise.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-03-22 16:33:06 +0100
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for ::1 at 2016-03-22 16:33:06 +0100
+
+
+Started GET "/assets/app.self-2a3bdae7d2e1cda260af4adad22673d19be80f9fe96ae246415548c0b3570fca.js?body=1" for ::1 at 2016-03-22 16:33:06 +0100
+
+
+Started GET "/assets/auth/_login.self-048ea316008d583328015593e6313070e5a531a3b1812e0c4598e463a8dba5a4.js?body=1" for ::1 at 2016-03-22 16:33:06 +0100
+
+
+Started GET "/assets/auth/authCtrl.self-8ce2832f88973da3f1a71a09e161ad751ccb957dabcae7f9242e99ab8c3464cd.js?body=1" for ::1 at 2016-03-22 16:33:06 +0100
+
+
+Started GET "/assets/auth/_register.self-5ceeff06355c690e48819a73f4fc11e9fa569821e485dc28bf5424a48c0c2d22.js?body=1" for ::1 at 2016-03-22 16:33:06 +0100
+
+
+Started GET "/assets/home/_home.self-4046ee3f8a9326f5393fd1afa13abfba5a045536da2f3da1617df1c67c2728f6.js?body=1" for ::1 at 2016-03-22 16:33:06 +0100
+
+
+Started GET "/assets/home/mainCtrl.self-9d0d123f9a5df45a1e8b0bbafc691f469bbcaa054a519de2008ecb973225a9a0.js?body=1" for ::1 at 2016-03-22 16:33:06 +0100
+
+
+Started GET "/assets/nav/_nav.self-b574dbe835f896bce4cff8e853c38e7f6bc56b0e95cb5672db97d1cacb174256.js?body=1" for ::1 at 2016-03-22 16:33:06 +0100
+
+
+Started GET "/assets/nav/navCtrl.self-705e5f1c55ff0871ba60968661e21d69e651b7daac6c6de7168a83b70e675980.js?body=1" for ::1 at 2016-03-22 16:33:06 +0100
+
+
+Started GET "/assets/posts/_posts.self-96b6d8e4f339b72344f5ba5c68ab5be0cc3dd97c16f1cfac8f8916fed9c11b3b.js?body=1" for ::1 at 2016-03-22 16:33:06 +0100
+
+
+Started GET "/assets/posts/posts.self-f0182f4aadcea15d654c0f46d46ff2036a773fdc01a112213dd63de677bc0c49.js?body=1" for ::1 at 2016-03-22 16:33:06 +0100
+
+
+Started GET "/assets/posts/postsCtrl.self-948b225c1af98cbb96b6b1575901c39ab7264c404db5ed57303c156b66ce9235.js?body=1" for ::1 at 2016-03-22 16:33:06 +0100
+
+
+Started GET "/assets/application.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3.js?body=1" for ::1 at 2016-03-22 16:33:06 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-22 16:33:06 +0100
+
+
+Started GET "/posts/28.json" for ::1 at 2016-03-22 16:33:07 +0100
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"28"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 28]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 28]]
+Completed 200 OK in 10ms (Views: 3.2ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/users/sign_in.json" for ::1 at 2016-03-22 16:33:07 +0100
+Processing by Devise::SessionsController#create as JSON
+  Parameters: {"user"=>{}, "session"=>{"user"=>{}}}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 201 Created in 11ms (Views: 1.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-22 16:33:07 +0100
+
+
+Started GET "/" for ::1 at 2016-03-22 16:33:16 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (286.2ms)
+Completed 200 OK in 298ms (Views: 297.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-22 16:33:16 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-22 16:33:16 +0100
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for ::1 at 2016-03-22 16:33:16 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-22 16:33:16 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-22 16:33:16 +0100
+
+
+Started GET "/assets/angular-devise/devise.self-633c6de0b47e944b4aab238ff501621349023b511d73dd13f10a376b89ea1a1b.js?body=1" for ::1 at 2016-03-22 16:33:16 +0100
+
+
+Started GET "/assets/angular-devise.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-03-22 16:33:16 +0100
+
+
+Started GET "/assets/app.self-2a3bdae7d2e1cda260af4adad22673d19be80f9fe96ae246415548c0b3570fca.js?body=1" for ::1 at 2016-03-22 16:33:16 +0100
+
+
+Started GET "/assets/auth/_register.self-5ceeff06355c690e48819a73f4fc11e9fa569821e485dc28bf5424a48c0c2d22.js?body=1" for ::1 at 2016-03-22 16:33:16 +0100
+
+
+Started GET "/assets/auth/_login.self-048ea316008d583328015593e6313070e5a531a3b1812e0c4598e463a8dba5a4.js?body=1" for ::1 at 2016-03-22 16:33:16 +0100
+
+
+Started GET "/assets/auth/authCtrl.self-8ce2832f88973da3f1a71a09e161ad751ccb957dabcae7f9242e99ab8c3464cd.js?body=1" for ::1 at 2016-03-22 16:33:16 +0100
+
+
+Started GET "/assets/home/_home.self-4046ee3f8a9326f5393fd1afa13abfba5a045536da2f3da1617df1c67c2728f6.js?body=1" for ::1 at 2016-03-22 16:33:16 +0100
+
+
+Started GET "/assets/home/mainCtrl.self-9d0d123f9a5df45a1e8b0bbafc691f469bbcaa054a519de2008ecb973225a9a0.js?body=1" for ::1 at 2016-03-22 16:33:16 +0100
+
+
+Started GET "/assets/nav/navCtrl.self-705e5f1c55ff0871ba60968661e21d69e651b7daac6c6de7168a83b70e675980.js?body=1" for ::1 at 2016-03-22 16:33:16 +0100
+
+
+Started GET "/assets/posts/posts.self-f0182f4aadcea15d654c0f46d46ff2036a773fdc01a112213dd63de677bc0c49.js?body=1" for ::1 at 2016-03-22 16:33:16 +0100
+
+
+Started GET "/assets/posts/postsCtrl.self-948b225c1af98cbb96b6b1575901c39ab7264c404db5ed57303c156b66ce9235.js?body=1" for ::1 at 2016-03-22 16:33:16 +0100
+
+
+Started GET "/assets/nav/_nav.self-b574dbe835f896bce4cff8e853c38e7f6bc56b0e95cb5672db97d1cacb174256.js?body=1" for ::1 at 2016-03-22 16:33:16 +0100
+
+
+Started GET "/assets/posts/_posts.self-032c58f5cf2fd365da6b1558892fd4123a69faefa2b188fd076e8dd2045dfed4.js?body=1" for ::1 at 2016-03-22 16:33:16 +0100
+
+
+Started GET "/assets/application.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3.js?body=1" for ::1 at 2016-03-22 16:33:16 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-22 16:33:16 +0100
+
+
+Started GET "/posts/28.json" for ::1 at 2016-03-22 16:33:17 +0100
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"28"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 28]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 28]]
+Completed 200 OK in 13ms (Views: 4.3ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users/sign_in.json" for ::1 at 2016-03-22 16:33:17 +0100
+Processing by Devise::SessionsController#create as JSON
+  Parameters: {"user"=>{}, "session"=>{"user"=>{}}}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 201 Created in 13ms (Views: 1.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-22 16:33:17 +0100
+
+
+Started GET "/" for ::1 at 2016-03-22 16:33:35 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (274.1ms)
+Completed 200 OK in 289ms (Views: 288.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-22 16:33:36 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-22 16:33:36 +0100
+
+
+Started GET "/assets/angular-devise/devise.self-633c6de0b47e944b4aab238ff501621349023b511d73dd13f10a376b89ea1a1b.js?body=1" for ::1 at 2016-03-22 16:33:36 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-22 16:33:36 +0100
+
+
+Started GET "/assets/angular-devise.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-03-22 16:33:36 +0100
+
+
+Started GET "/assets/auth/_login.self-048ea316008d583328015593e6313070e5a531a3b1812e0c4598e463a8dba5a4.js?body=1" for ::1 at 2016-03-22 16:33:36 +0100
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for ::1 at 2016-03-22 16:33:36 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-22 16:33:36 +0100
+
+
+Started GET "/assets/app.self-2a3bdae7d2e1cda260af4adad22673d19be80f9fe96ae246415548c0b3570fca.js?body=1" for ::1 at 2016-03-22 16:33:36 +0100
+
+
+Started GET "/assets/auth/_register.self-5ceeff06355c690e48819a73f4fc11e9fa569821e485dc28bf5424a48c0c2d22.js?body=1" for ::1 at 2016-03-22 16:33:36 +0100
+
+
+Started GET "/assets/auth/authCtrl.self-8ce2832f88973da3f1a71a09e161ad751ccb957dabcae7f9242e99ab8c3464cd.js?body=1" for ::1 at 2016-03-22 16:33:36 +0100
+
+
+Started GET "/assets/home/_home.self-4046ee3f8a9326f5393fd1afa13abfba5a045536da2f3da1617df1c67c2728f6.js?body=1" for ::1 at 2016-03-22 16:33:36 +0100
+
+
+Started GET "/assets/home/mainCtrl.self-9d0d123f9a5df45a1e8b0bbafc691f469bbcaa054a519de2008ecb973225a9a0.js?body=1" for ::1 at 2016-03-22 16:33:36 +0100
+
+
+Started GET "/assets/nav/_nav.self-b574dbe835f896bce4cff8e853c38e7f6bc56b0e95cb5672db97d1cacb174256.js?body=1" for ::1 at 2016-03-22 16:33:36 +0100
+
+
+Started GET "/assets/nav/navCtrl.self-705e5f1c55ff0871ba60968661e21d69e651b7daac6c6de7168a83b70e675980.js?body=1" for ::1 at 2016-03-22 16:33:36 +0100
+
+
+Started GET "/assets/posts/_posts.self-6d69dc40aa7045ab6e158265d2f053e963b8e2b01934a1b15d2b21117421895c.js?body=1" for ::1 at 2016-03-22 16:33:36 +0100
+
+
+Started GET "/assets/posts/posts.self-f0182f4aadcea15d654c0f46d46ff2036a773fdc01a112213dd63de677bc0c49.js?body=1" for ::1 at 2016-03-22 16:33:36 +0100
+
+
+Started GET "/assets/posts/postsCtrl.self-948b225c1af98cbb96b6b1575901c39ab7264c404db5ed57303c156b66ce9235.js?body=1" for ::1 at 2016-03-22 16:33:36 +0100
+
+
+Started GET "/assets/application.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3.js?body=1" for ::1 at 2016-03-22 16:33:36 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-22 16:33:36 +0100
+
+
+Started GET "/posts/28.json" for ::1 at 2016-03-22 16:33:36 +0100
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"28"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 28]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 28]]
+Completed 200 OK in 10ms (Views: 3.6ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/users/sign_in.json" for ::1 at 2016-03-22 16:33:36 +0100
+Processing by Devise::SessionsController#create as JSON
+  Parameters: {"user"=>{}, "session"=>{"user"=>{}}}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 201 Created in 11ms (Views: 1.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-22 16:33:36 +0100
+
+
+Started GET "/" for ::1 at 2016-03-22 16:33:50 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (33.4ms)
+Completed 200 OK in 50ms (Views: 49.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-22 16:33:50 +0100
+
+
+Started GET "/assets/angular-devise.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-03-22 16:33:50 +0100
+
+
+Started GET "/assets/angular-devise/devise.self-633c6de0b47e944b4aab238ff501621349023b511d73dd13f10a376b89ea1a1b.js?body=1" for ::1 at 2016-03-22 16:33:50 +0100
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for ::1 at 2016-03-22 16:33:50 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-22 16:33:50 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-22 16:33:50 +0100
+
+
+Started GET "/assets/app.self-2a3bdae7d2e1cda260af4adad22673d19be80f9fe96ae246415548c0b3570fca.js?body=1" for ::1 at 2016-03-22 16:33:50 +0100
+
+
+Started GET "/assets/auth/_login.self-048ea316008d583328015593e6313070e5a531a3b1812e0c4598e463a8dba5a4.js?body=1" for ::1 at 2016-03-22 16:33:50 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-22 16:33:50 +0100
+
+
+Started GET "/assets/auth/_register.self-5ceeff06355c690e48819a73f4fc11e9fa569821e485dc28bf5424a48c0c2d22.js?body=1" for ::1 at 2016-03-22 16:33:50 +0100
+
+
+Started GET "/assets/auth/authCtrl.self-8ce2832f88973da3f1a71a09e161ad751ccb957dabcae7f9242e99ab8c3464cd.js?body=1" for ::1 at 2016-03-22 16:33:50 +0100
+
+
+Started GET "/assets/home/_home.self-4046ee3f8a9326f5393fd1afa13abfba5a045536da2f3da1617df1c67c2728f6.js?body=1" for ::1 at 2016-03-22 16:33:50 +0100
+
+
+Started GET "/assets/home/mainCtrl.self-9d0d123f9a5df45a1e8b0bbafc691f469bbcaa054a519de2008ecb973225a9a0.js?body=1" for ::1 at 2016-03-22 16:33:50 +0100
+
+
+Started GET "/assets/nav/_nav.self-b574dbe835f896bce4cff8e853c38e7f6bc56b0e95cb5672db97d1cacb174256.js?body=1" for ::1 at 2016-03-22 16:33:50 +0100
+
+
+Started GET "/assets/nav/navCtrl.self-705e5f1c55ff0871ba60968661e21d69e651b7daac6c6de7168a83b70e675980.js?body=1" for ::1 at 2016-03-22 16:33:50 +0100
+
+
+Started GET "/assets/posts/_posts.self-032c58f5cf2fd365da6b1558892fd4123a69faefa2b188fd076e8dd2045dfed4.js?body=1" for ::1 at 2016-03-22 16:33:50 +0100
+
+
+Started GET "/assets/posts/posts.self-f0182f4aadcea15d654c0f46d46ff2036a773fdc01a112213dd63de677bc0c49.js?body=1" for ::1 at 2016-03-22 16:33:50 +0100
+
+
+Started GET "/assets/posts/postsCtrl.self-948b225c1af98cbb96b6b1575901c39ab7264c404db5ed57303c156b66ce9235.js?body=1" for ::1 at 2016-03-22 16:33:50 +0100
+
+
+Started GET "/assets/application.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3.js?body=1" for ::1 at 2016-03-22 16:33:50 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-22 16:33:51 +0100
+
+
+Started GET "/posts/28.json" for ::1 at 2016-03-22 16:33:51 +0100
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"28"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 28]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 28]]
+Completed 200 OK in 13ms (Views: 4.7ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users/sign_in.json" for ::1 at 2016-03-22 16:33:51 +0100
+Processing by Devise::SessionsController#create as JSON
+  Parameters: {"user"=>{}, "session"=>{"user"=>{}}}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 201 Created in 14ms (Views: 1.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-22 16:33:51 +0100
+
+
+Started GET "/posts.json" for ::1 at 2016-03-22 16:33:52 +0100
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 28]]
+Completed 200 OK in 17ms (Views: 6.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2016-03-22 16:34:10 +0100
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (37.0ms)
+Completed 200 OK in 52ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-22 16:34:10 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-22 16:34:10 +0100
+
+
+Started GET "/assets/angular-devise/devise.self-633c6de0b47e944b4aab238ff501621349023b511d73dd13f10a376b89ea1a1b.js?body=1" for ::1 at 2016-03-22 16:34:10 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-22 16:34:10 +0100
+
+
+Started GET "/assets/angular-devise.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-03-22 16:34:10 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-22 16:34:10 +0100
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for ::1 at 2016-03-22 16:34:10 +0100
+
+
+Started GET "/assets/app.self-2a3bdae7d2e1cda260af4adad22673d19be80f9fe96ae246415548c0b3570fca.js?body=1" for ::1 at 2016-03-22 16:34:10 +0100
+
+
+Started GET "/assets/auth/_login.self-048ea316008d583328015593e6313070e5a531a3b1812e0c4598e463a8dba5a4.js?body=1" for ::1 at 2016-03-22 16:34:10 +0100
+
+
+Started GET "/assets/auth/_register.self-5ceeff06355c690e48819a73f4fc11e9fa569821e485dc28bf5424a48c0c2d22.js?body=1" for ::1 at 2016-03-22 16:34:10 +0100
+
+
+Started GET "/assets/auth/authCtrl.self-8ce2832f88973da3f1a71a09e161ad751ccb957dabcae7f9242e99ab8c3464cd.js?body=1" for ::1 at 2016-03-22 16:34:10 +0100
+
+
+Started GET "/assets/home/_home.self-4046ee3f8a9326f5393fd1afa13abfba5a045536da2f3da1617df1c67c2728f6.js?body=1" for ::1 at 2016-03-22 16:34:10 +0100
+
+
+Started GET "/assets/home/mainCtrl.self-9d0d123f9a5df45a1e8b0bbafc691f469bbcaa054a519de2008ecb973225a9a0.js?body=1" for ::1 at 2016-03-22 16:34:10 +0100
+
+
+Started GET "/assets/nav/navCtrl.self-705e5f1c55ff0871ba60968661e21d69e651b7daac6c6de7168a83b70e675980.js?body=1" for ::1 at 2016-03-22 16:34:10 +0100
+
+
+Started GET "/assets/nav/_nav.self-b574dbe835f896bce4cff8e853c38e7f6bc56b0e95cb5672db97d1cacb174256.js?body=1" for ::1 at 2016-03-22 16:34:10 +0100
+
+
+Started GET "/assets/posts/_posts.self-032c58f5cf2fd365da6b1558892fd4123a69faefa2b188fd076e8dd2045dfed4.js?body=1" for ::1 at 2016-03-22 16:34:10 +0100
+
+
+Started GET "/assets/posts/postsCtrl.self-948b225c1af98cbb96b6b1575901c39ab7264c404db5ed57303c156b66ce9235.js?body=1" for ::1 at 2016-03-22 16:34:10 +0100
+
+
+Started GET "/assets/posts/posts.self-f0182f4aadcea15d654c0f46d46ff2036a773fdc01a112213dd63de677bc0c49.js?body=1" for ::1 at 2016-03-22 16:34:10 +0100
+
+
+Started GET "/assets/application.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3.js?body=1" for ::1 at 2016-03-22 16:34:10 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-22 16:34:10 +0100
+
+
+Started GET "/posts.json" for ::1 at 2016-03-22 16:34:10 +0100
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 28]]
+Completed 200 OK in 11ms (Views: 4.1ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/users/sign_in.json" for ::1 at 2016-03-22 16:34:10 +0100
+Processing by Devise::SessionsController#create as JSON
+  Parameters: {"user"=>{}, "session"=>{"user"=>{}}}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 201 Created in 12ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-22 16:34:11 +0100
