@@ -1,5 +1,5 @@
 // Require Angular
-var app = angular.module('angitNews', ['ui.router', 'templates']);
+var app = angular.module('angitNews', ['ui.router', 'templates', 'Devise']);
 
   // config ui-router
   app.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider){
