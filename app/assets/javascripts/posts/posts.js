@@ -13,6 +13,14 @@ var app = angular.module('angitNews');
       });
     };
 
+
+    // get a post with comments
+    x.get = function(id) {
+      return $http.get('/posts/' + id + '.json').then(function(res){
+        return res.data;
+      });
+    };
+
     // create post method
     x.create = function(post) {
       return $http.post('/posts.json', post).success(function(data){
@@ -26,17 +34,11 @@ var app = angular.module('angitNews');
         post.upvotes += 1;
       });
     };
-    
-    // get a post with comments
-    x.get = function(id) {
-      return $http.get('/posts/' + id + '.json').then(function(res){
-        return res.data;
-      });
-    };
+
     
     // add a comment to a post
     x.addComment = function(id, comment) {
-      return $http.post('/posts/' + id + '.json', comment);
+      return $http.post('/posts/' + id + '/comments.json', comment);
     };
 
     x.upvoteComment = function(post, comment) {
