@@ -6526,3 +6526,452 @@ ActionView::Template::Error (couldn't find file 'angular-devise' with type 'appl
   Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
   Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
   Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (223.8ms)
+
+
+Started GET "/" for ::1 at 2016-03-22 14:20:12 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (321.7ms)
+Completed 500 Internal Server Error in 351ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'angular-devise' with type 'application/javascript'):
+    2: <html>
+    3: <head>
+    4:   <title>AngReddit - Angular Meets Rails </title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: 
+  app/assets/javascripts/application.js:2
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1031182204871782839_70305300608840'
+  app/controllers/application_controller.rb:9:in `angular'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.7ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (72.1ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (59.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (122.3ms)
+
+
+Started GET "/" for ::1 at 2016-03-22 14:21:50 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (404.9ms)
+Completed 500 Internal Server Error in 464ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'angular-devise' with type 'application/javascript'):
+    2: <html>
+    3: <head>
+    4:   <title>AngReddit - Angular Meets Rails </title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all' %>
+    6:   <%= javascript_include_tag 'application' %>
+    7:   <%= csrf_meta_tags %>
+    8: 
+  app/assets/javascripts/application.js:2
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1640744363054945991_70187920906120'
+  app/controllers/application_controller.rb:9:in `angular'
+
+
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.9ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (96.0ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (124.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /usr/local/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (209.1ms)
+
+
+Started GET "/" for ::1 at 2016-03-22 14:23:43 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (2050.1ms)
+Completed 200 OK in 2119ms (Views: 2093.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-03-22 14:23:45 +0100
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-03-22 14:23:45 +0100
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-03-22 14:23:45 +0100
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-03-22 14:23:45 +0100
+
+
+Started GET "/assets/angular-devise/devise.self-633c6de0b47e944b4aab238ff501621349023b511d73dd13f10a376b89ea1a1b.js?body=1" for ::1 at 2016-03-22 14:23:45 +0100
+
+
+Started GET "/assets/angular-devise.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-03-22 14:23:45 +0100
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for ::1 at 2016-03-22 14:23:45 +0100
+
+
+Started GET "/assets/auth/_register.self-5ceeff06355c690e48819a73f4fc11e9fa569821e485dc28bf5424a48c0c2d22.js?body=1" for ::1 at 2016-03-22 14:23:45 +0100
+
+
+Started GET "/assets/auth/authCtrl.self-8ce2832f88973da3f1a71a09e161ad751ccb957dabcae7f9242e99ab8c3464cd.js?body=1" for ::1 at 2016-03-22 14:23:45 +0100
+
+
+Started GET "/assets/home/_home.self-cd0c2fd7e515fa774262716019c4456d4e14a3d8687b39c8c6ed89475570fb1d.js?body=1" for ::1 at 2016-03-22 14:23:45 +0100
+
+
+Started GET "/assets/auth/_login.self-048ea316008d583328015593e6313070e5a531a3b1812e0c4598e463a8dba5a4.js?body=1" for ::1 at 2016-03-22 14:23:45 +0100
+
+
+Started GET "/assets/home/mainCtrl.self-9d0d123f9a5df45a1e8b0bbafc691f469bbcaa054a519de2008ecb973225a9a0.js?body=1" for ::1 at 2016-03-22 14:23:45 +0100
+
+
+Started GET "/assets/app.self-2a3bdae7d2e1cda260af4adad22673d19be80f9fe96ae246415548c0b3570fca.js?body=1" for ::1 at 2016-03-22 14:23:45 +0100
+
+
+Started GET "/assets/nav/_nav.self-b574dbe835f896bce4cff8e853c38e7f6bc56b0e95cb5672db97d1cacb174256.js?body=1" for ::1 at 2016-03-22 14:23:45 +0100
+
+
+Started GET "/assets/posts/posts.self-f0182f4aadcea15d654c0f46d46ff2036a773fdc01a112213dd63de677bc0c49.js?body=1" for ::1 at 2016-03-22 14:23:46 +0100
+
+
+Started GET "/assets/nav/navCtrl.self-705e5f1c55ff0871ba60968661e21d69e651b7daac6c6de7168a83b70e675980.js?body=1" for ::1 at 2016-03-22 14:23:46 +0100
+
+
+Started GET "/assets/posts/postsCtrl.self-e807e9bb9fac1a1809e797b45e5a0afaf0fc682d0ece582cc3dae4b7e9ce07f1.js?body=1" for ::1 at 2016-03-22 14:23:46 +0100
+
+
+Started GET "/assets/posts/_posts.self-75a28cda59c7e6f3fe5d5630e943ed4d5a39dc554805f6a1f2fd6138c8b9ba55.js?body=1" for ::1 at 2016-03-22 14:23:46 +0100
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.css.map" for ::1 at 2016-03-22 14:23:46 +0100
+
+
+Started GET "/assets/application.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3.js?body=1" for ::1 at 2016-03-22 14:23:46 +0100
+
+
+Started POST "/users/sign_in.json" for ::1 at 2016-03-22 14:23:46 +0100
+Processing by Devise::SessionsController#create as JSON
+  Parameters: {"user"=>{}, "session"=>{"user"=>{}}}
+Completed 401 Unauthorized in 14ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/posts.json" for ::1 at 2016-03-22 14:23:46 +0100
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (3.5ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mComment Load (0.7ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 2]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 3]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 4]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 5]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 6]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 7]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 8]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 9]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 10]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 11]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 12]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 13]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 14]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 15]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 16]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 17]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 18]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 19]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 20]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 21]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 22]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 23]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 24]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 25]]
+Completed 200 OK in 154ms (Views: 101.0ms | ActiveRecord: 7.9ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-22 14:23:46 +0100
+
+
+Started POST "/users/sign_in.json" for ::1 at 2016-03-22 14:24:02 +0100
+Processing by Devise::SessionsController#create as JSON
+  Parameters: {"user"=>{"password"=>"[FILTERED]", "email"=>"dude@dude.com"}, "session"=>{"user"=>{"password"=>"[FILTERED]", "email"=>"dude@dude.com"}}}
+  [1m[35mUser Load (11.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "dude@dude.com"]]
+Completed 401 Unauthorized in 55ms (ActiveRecord: 11.7ms)
+
+
+Started POST "/users.json" for ::1 at 2016-03-22 14:24:11 +0100
+Processing by Devise::RegistrationsController#create as JSON
+  Parameters: {"user"=>{"email"=>"dude@dude.com", "username"=>"dude", "password"=>"[FILTERED]"}, "registration"=>{"user"=>{"email"=>"dude@dude.com", "username"=>"dude", "password"=>"[FILTERED]"}}}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'dude@dude.com' LIMIT 1
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO "users" ("email", "encrypted_password", "username", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["email", "dude@dude.com"], ["encrypted_password", "$2a$10$WMK/uTzSSP9nUaLO1UzhlOuWRlQ2Vs25PyWj658WJG4MaApF7I0Pm"], ["username", "dude"], ["created_at", "2016-03-22 13:24:12.179667"], ["updated_at", "2016-03-22 13:24:12.179667"]]
+  [1m[35m (1.3ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_sign_in_at", "2016-03-22 13:24:12.184663"], ["current_sign_in_at", "2016-03-22 13:24:12.184663"], ["last_sign_in_ip", "::1"], ["current_sign_in_ip", "::1"], ["sign_in_count", 1], ["updated_at", "2016-03-22 13:24:12.186447"], ["id", 1]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+Completed 201 Created in 175ms (Views: 0.6ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/posts.json" for ::1 at 2016-03-22 14:24:12 +0100
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 1]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 2]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 3]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 4]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 5]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 6]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 7]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 8]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 9]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 10]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 11]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 12]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 13]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 14]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 15]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 16]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 17]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 18]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 19]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 20]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 21]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 22]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 23]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 24]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 25]]
+Completed 200 OK in 34ms (Views: 26.5ms | ActiveRecord: 2.2ms)
+
+
+Started PUT "/posts/1/upvote.json" for ::1 at 2016-03-22 14:24:15 +0100
+Processing by PostsController#upvote as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "posts" SET "upvotes" = ?, "updated_at" = ? WHERE "posts"."id" = ?  [["upvotes", 19], ["updated_at", "2016-03-22 13:24:15.177291"], ["id", 1]]
+  [1m[36m (2.2ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 12ms (ActiveRecord: 2.8ms)
+
+
+Started PUT "/posts/1/upvote.json" for ::1 at 2016-03-22 14:24:15 +0100
+Processing by PostsController#upvote as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "posts" SET "upvotes" = ?, "updated_at" = ? WHERE "posts"."id" = ?  [["upvotes", 20], ["updated_at", "2016-03-22 13:24:16.001457"], ["id", 1]]
+  [1m[36m (2.6ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 11ms (ActiveRecord: 3.2ms)
+
+
+Started PUT "/posts/1/upvote.json" for ::1 at 2016-03-22 14:24:16 +0100
+Processing by PostsController#upvote as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "posts" SET "upvotes" = ?, "updated_at" = ? WHERE "posts"."id" = ?  [["upvotes", 21], ["updated_at", "2016-03-22 13:24:16.378089"], ["id", 1]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 10ms (ActiveRecord: 1.7ms)
+
+
+Started POST "/posts.json" for ::1 at 2016-03-22 14:24:21 +0100
+Processing by PostsController#create as JSON
+  Parameters: {"title"=>"yaaaay", "link"=>"coolio!", "post"=>{"title"=>"yaaaay", "link"=>"coolio!"}}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "posts" ("link", "title", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["link", "coolio!"], ["title", "yaaaay"], ["created_at", "2016-03-22 13:24:21.329063"], ["updated_at", "2016-03-22 13:24:21.329063"]]
+  [1m[35m (25.0ms)[0m  commit transaction
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 26]]
+Completed 201 Created in 36ms (Views: 2.0ms | ActiveRecord: 25.5ms)
+
+
+Started PUT "/posts/26/upvote.json" for ::1 at 2016-03-22 14:24:22 +0100
+Processing by PostsController#upvote as JSON
+  Parameters: {"id"=>"26"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 26]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "posts" SET "upvotes" = ?, "updated_at" = ? WHERE "posts"."id" = ?  [["upvotes", 1], ["updated_at", "2016-03-22 13:24:22.973608"], ["id", 26]]
+  [1m[36m (17.5ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 27ms (ActiveRecord: 18.0ms)
+
+
+Started PUT "/posts/1/upvote.json" for ::1 at 2016-03-22 14:24:23 +0100
+Processing by PostsController#upvote as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "posts" SET "upvotes" = ?, "updated_at" = ? WHERE "posts"."id" = ?  [["upvotes", 22], ["updated_at", "2016-03-22 13:24:23.180296"], ["id", 1]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 10ms (ActiveRecord: 1.6ms)
+
+
+Started PUT "/posts/1/upvote.json" for ::1 at 2016-03-22 14:24:23 +0100
+Processing by PostsController#upvote as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "posts" SET "upvotes" = ?, "updated_at" = ? WHERE "posts"."id" = ?  [["upvotes", 23], ["updated_at", "2016-03-22 13:24:23.329198"], ["id", 1]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 10ms (ActiveRecord: 1.6ms)
+
+
+Started PUT "/posts/1/upvote.json" for ::1 at 2016-03-22 14:24:23 +0100
+Processing by PostsController#upvote as JSON
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "posts" SET "upvotes" = ?, "updated_at" = ? WHERE "posts"."id" = ?  [["upvotes", 24], ["updated_at", "2016-03-22 13:24:23.573953"], ["id", 1]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 10ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/posts/26.json" for ::1 at 2016-03-22 14:24:25 +0100
+Processing by PostsController#show as JSON
+  Parameters: {"id"=>"26"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 26]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 26]]
+Completed 200 OK in 15ms (Views: 3.8ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/posts/26/comments.json" for ::1 at 2016-03-22 14:24:28 +0100
+Processing by CommentsController#create as JSON
+  Parameters: {"body"=>"I love it", "author"=>"user", "post_id"=>"26", "comment"=>{"body"=>"I love it"}}
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 26]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "comments" ("body", "post_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["body", "I love it"], ["post_id", 26], ["created_at", "2016-03-22 13:24:28.301187"], ["updated_at", "2016-03-22 13:24:28.301187"]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+Completed 201 Created in 16ms (Views: 1.0ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/posts/26/comments.json" for ::1 at 2016-03-22 14:24:34 +0100
+Processing by CommentsController#create as JSON
+  Parameters: {"body"=>"so sweeet", "author"=>"user", "post_id"=>"26", "comment"=>{"body"=>"so sweeet"}}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 26]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "comments" ("body", "post_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["body", "so sweeet"], ["post_id", 26], ["created_at", "2016-03-22 13:24:34.652898"], ["updated_at", "2016-03-22 13:24:34.652898"]]
+  [1m[36m (2.8ms)[0m  [1mcommit transaction[0m
+Completed 201 Created in 13ms (Views: 0.5ms | ActiveRecord: 3.9ms)
+
+
+Started PUT "/posts/26/comments/3/upvote.json" for ::1 at 2016-03-22 14:24:37 +0100
+Processing by CommentsController#upvote as JSON
+  Parameters: {"post_id"=>"26", "id"=>"3"}
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 26]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."post_id" = ? AND "comments"."id" = ? LIMIT 1[0m  [["post_id", 26], ["id", 3]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "comments" SET "upvotes" = ?, "updated_at" = ? WHERE "comments"."id" = ?[0m  [["upvotes", 1], ["updated_at", "2016-03-22 13:24:37.144780"], ["id", 3]]
+  [1m[35m (2.5ms)[0m  commit transaction
+Completed 204 No Content in 15ms (ActiveRecord: 3.3ms)
+
+
+Started PUT "/posts/26/comments/4/upvote.json" for ::1 at 2016-03-22 14:24:37 +0100
+Processing by CommentsController#upvote as JSON
+  Parameters: {"post_id"=>"26", "id"=>"4"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 26]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."post_id" = ? AND "comments"."id" = ? LIMIT 1  [["post_id", 26], ["id", 4]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "comments" SET "upvotes" = ?, "updated_at" = ? WHERE "comments"."id" = ?  [["upvotes", 1], ["updated_at", "2016-03-22 13:24:37.348854"], ["id", 4]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 11ms (ActiveRecord: 1.7ms)
+
+
+Started PUT "/posts/26/comments/3/upvote.json" for ::1 at 2016-03-22 14:24:37 +0100
+Processing by CommentsController#upvote as JSON
+  Parameters: {"post_id"=>"26", "id"=>"3"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 26]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."post_id" = ? AND "comments"."id" = ? LIMIT 1[0m  [["post_id", 26], ["id", 3]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "comments" SET "upvotes" = ?, "updated_at" = ? WHERE "comments"."id" = ?[0m  [["upvotes", 2], ["updated_at", "2016-03-22 13:24:37.710667"], ["id", 3]]
+  [1m[35m (1.2ms)[0m  commit transaction
+Completed 204 No Content in 12ms (ActiveRecord: 1.8ms)
+
+
+Started PUT "/posts/26/comments/3/upvote.json" for ::1 at 2016-03-22 14:24:37 +0100
+Processing by CommentsController#upvote as JSON
+  Parameters: {"post_id"=>"26", "id"=>"3"}
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 26]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."post_id" = ? AND "comments"."id" = ? LIMIT 1  [["post_id", 26], ["id", 3]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "comments" SET "upvotes" = ?, "updated_at" = ? WHERE "comments"."id" = ?  [["upvotes", 3], ["updated_at", "2016-03-22 13:24:37.856319"], ["id", 3]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 11ms (ActiveRecord: 1.6ms)
+
+
+Started PUT "/posts/26/comments/3/upvote.json" for ::1 at 2016-03-22 14:24:38 +0100
+Processing by CommentsController#upvote as JSON
+  Parameters: {"post_id"=>"26", "id"=>"3"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 26]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."post_id" = ? AND "comments"."id" = ? LIMIT 1[0m  [["post_id", 26], ["id", 3]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "comments" SET "upvotes" = ?, "updated_at" = ? WHERE "comments"."id" = ?[0m  [["upvotes", 4], ["updated_at", "2016-03-22 13:24:38.023710"], ["id", 3]]
+  [1m[35m (1.0ms)[0m  commit transaction
+Completed 204 No Content in 11ms (ActiveRecord: 1.6ms)
+
+
+Started PUT "/posts/26/comments/3/upvote.json" for ::1 at 2016-03-22 14:24:38 +0100
+Processing by CommentsController#upvote as JSON
+  Parameters: {"post_id"=>"26", "id"=>"3"}
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 26]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT  "comments".* FROM "comments" WHERE "comments"."post_id" = ? AND "comments"."id" = ? LIMIT 1  [["post_id", 26], ["id", 3]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "comments" SET "upvotes" = ?, "updated_at" = ? WHERE "comments"."id" = ?  [["upvotes", 5], ["updated_at", "2016-03-22 13:24:38.175691"], ["id", 3]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 11ms (ActiveRecord: 1.8ms)
+
+
+Started PUT "/posts/26/comments/3/upvote.json" for ::1 at 2016-03-22 14:24:38 +0100
+Processing by CommentsController#upvote as JSON
+  Parameters: {"post_id"=>"26", "id"=>"3"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 26]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT  "comments".* FROM "comments" WHERE "comments"."post_id" = ? AND "comments"."id" = ? LIMIT 1[0m  [["post_id", 26], ["id", 3]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "comments" SET "upvotes" = ?, "updated_at" = ? WHERE "comments"."id" = ?[0m  [["upvotes", 6], ["updated_at", "2016-03-22 13:24:38.325715"], ["id", 3]]
+  [1m[35m (1.2ms)[0m  commit transaction
+Completed 204 No Content in 11ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/posts.json" for ::1 at 2016-03-22 14:24:39 +0100
+Processing by PostsController#index as JSON
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 1]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 2]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 3]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 4]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 5]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 6]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 7]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 8]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 9]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 10]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 11]]
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 12]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 13]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 14]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 15]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 16]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 17]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 18]]
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 19]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 20]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 21]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 22]]
+  [1m[35mComment Load (0.2ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 23]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 24]]
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 25]]
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 26]]
+Completed 200 OK in 70ms (Views: 53.6ms | ActiveRecord: 5.5ms)
+
+
+Started DELETE "/users/sign_out.json" for ::1 at 2016-03-22 14:24:42 +0100
+Processing by Devise::SessionsController#destroy as JSON
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+Completed 204 No Content in 40ms (ActiveRecord: 0.4ms)

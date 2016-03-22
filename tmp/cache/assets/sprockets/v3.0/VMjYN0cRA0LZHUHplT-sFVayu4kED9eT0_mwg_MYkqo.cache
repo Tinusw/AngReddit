@@ -1,0 +1,45 @@
+{:uriI"Éfile://app/assets/javascripts/home/_home.html?type=text/ng-html&id=f78dbc92641676aa792bc8c8974c13486157fe0a8c3504530960c5eb8f13421f:ET:load_pathI"app/assets/javascripts;T:filenameI"+app/assets/javascripts/home/_home.html;T:	nameI"home/_home;T:logical_pathI"home/_home.html;T:content_typeI"text/ng-html;T:sourceI"÷<div class="header">
+  <h3> Angit! Reddit but made with Angular! </h3>
+</div>
+
+<!-- Input form -->
+<form class="form-inline" ng-submit="addPost()">
+  <input type="text" class="form-control" placeholder="New title..." ng-model="title">
+ 
+  <input type="text" class="form-control" placeholder="Share a link..." ng-model="link">
+
+  <button class="btn btn-default" type="submit"> 
+    Post 
+  </button>
+</form>
+
+<!-- Display Form -->
+<form class="form" ng-repeat="post in posts | orderBy: '-upvotes'">
+  <label class="label label-success">
+    <label class="glyphicon glyphicon-thumbs-up" ng-click="incrementUpvotes(post)">
+    </label>
+  </label>
+
+  <label class="label label-info">        
+    <a ng-show="post.link" href="{{post.link}}">
+      {{post.title}}
+    </a>
+  </label>
+
+  <span ng-hide="post.link">
+    {{post.title}}
+  </span>
+  
+  <label class="label label-info">
+    {{post.upvotes}}
+  </label>
+
+  <span>
+    <a href="#/posts/{{post.id}}">Comments</a>
+  </span>
+</form>
+;T:metadata{	:dependencieso:Set:
+@hash{
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"8processors:type=text/ng-html&file_type=text/ng-html;TTI"9file-digest://app/assets/javascripts/home/_home.html;TT:charsetI"
+utf-8;F:digest"%ê±E¬É 7ëî6ı»Ø∑Ô?˝–|¨·‰˚7ÉqçÈ†‰…:lengthi÷:dependencies_digest"%WñÂ{Æª‚óÃ}[qèº≠r¿Û˚Nb”–º-£:idI"Ef78dbc92641676aa792bc8c8974c13486157fe0a8c3504530960c5eb8f13421f;F:
+mtimel+:ÒV
