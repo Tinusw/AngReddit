@@ -36,6 +36,12 @@ group :development do
   gem 'spring'
 end
 
+group :production do 
+	gem 'rails_12factor'
+  gem 'pg'
+end
+
+
 gem 'angular-rails-templates'
 gem 'responders', '~> 2.0'
 gem 'angular_rails_csrf'
