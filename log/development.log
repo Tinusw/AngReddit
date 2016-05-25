@@ -10692,3 +10692,52 @@ Processing by PostsController#upvote as JSON
   [1m[35mSQL (0.3ms)[0m  UPDATE "posts" SET "upvotes" = ?, "updated_at" = ? WHERE "posts"."id" = ?  [["upvotes", 2], ["updated_at", "2016-05-25 08:16:04.962885"], ["id", 29]]
   [1m[36m (2.5ms)[0m  [1mcommit transaction[0m
 Completed 204 No Content in 12ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/" for ::1 at 2016-05-25 20:26:43 +1200
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (647.7ms)
+Completed 200 OK in 686ms (Views: 685.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home/_home.self-3ae137c6de99f63cb069b2198f0303047c38229eb1a04d5252511d53c6d301c5.js?body=1" for ::1 at 2016-05-25 20:26:44 +1200
+
+
+Started POST "/users/sign_in.json" for ::1 at 2016-05-25 20:26:44 +1200
+Processing by Devise::SessionsController#create as JSON
+  Parameters: {"user"=>{}, "session"=>{"user"=>{}}}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 201 Created in 28ms (Views: 1.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/posts.json" for ::1 at 2016-05-25 20:26:44 +1200
+Processing by PostsController#index as JSON
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mComment Load (0.3ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 28]]
+  [1m[36mComment Load (0.2ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 29]]
+Completed 200 OK in 22ms (Views: 12.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-05-25 20:26:44 +1200
+
+
+Started PUT "/posts/28/upvote.json" for ::1 at 2016-05-25 20:26:45 +1200
+Processing by PostsController#upvote as JSON
+  Parameters: {"id"=>"28"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 28]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "posts" SET "upvotes" = ?, "updated_at" = ? WHERE "posts"."id" = ?[0m  [["upvotes", 9], ["updated_at", "2016-05-25 08:26:45.854592"], ["id", 28]]
+  [1m[35m (1.3ms)[0m  commit transaction
+Completed 204 No Content in 10ms (ActiveRecord: 1.9ms)
+
+
+Started PUT "/posts/28/upvote.json" for ::1 at 2016-05-25 20:26:46 +1200
+Processing by PostsController#upvote as JSON
+  Parameters: {"id"=>"28"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 28]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  UPDATE "posts" SET "upvotes" = ?, "updated_at" = ? WHERE "posts"."id" = ?  [["upvotes", 10], ["updated_at", "2016-05-25 08:26:46.701743"], ["id", 28]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 14ms (ActiveRecord: 2.1ms)
