@@ -6,7 +6,7 @@ Also has comments that can be upvoted!
 
 Todo : 
 
-Fix url links - They're not linking out from the site correctly when clicked upon.
+Fix url links - They're not linking out from the site correctly when clicked upon, unless you manually append *http://* to each link.
 
 == Live Link
 https://protected-anchorage-73024.herokuapp.com/#/home
