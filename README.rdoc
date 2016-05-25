@@ -2,7 +2,11 @@
 
 Nothing too pretty, but essentially a Reddit clone built using Angular and Rails!
 
+Also has comments that can be upvoted!
 
+Todo : 
+
+Fix url links - They're not linking out from the site correctly when clicked upon.
 
 == Live Link
 https://protected-anchorage-73024.herokuapp.com/#/home
