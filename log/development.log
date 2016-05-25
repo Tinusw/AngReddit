@@ -10545,3 +10545,150 @@ Completed 201 Created in 12ms (Views: 1.1ms | ActiveRecord: 0.2ms)
 
 
 Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-03-22 16:34:11 +0100
+
+
+Started GET "/" for ::1 at 2016-05-25 20:15:32 +1200
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ApplicationController#angular as HTML
+  Rendered layouts/application.html.erb within layouts/application (2235.1ms)
+Completed 200 OK in 2348ms (Views: 2311.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/dist/css/bootstrap.self-598365399e6ae8f5a456a189663bac8ef9b8996ace38626328403f280fd63400.css?body=1" for ::1 at 2016-05-25 20:15:35 +1200
+
+
+Started GET "/assets/application.self-052e8f157e9a4be0b83d9779c9c525ade9eddd5524a516fc4abc27e06223fb5d.css?body=1" for ::1 at 2016-05-25 20:15:35 +1200
+
+
+Started GET "/assets/angular-ui-router/release/angular-ui-router.self-0c002d1f8115d21a4b7a82980f422bfa3c96f7d704dcc34367283b0fe61c6717.js?body=1" for ::1 at 2016-05-25 20:15:35 +1200
+
+
+Started GET "/assets/angular-devise.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js?body=1" for ::1 at 2016-05-25 20:15:35 +1200
+
+
+Started GET "/assets/angular-devise/devise.self-633c6de0b47e944b4aab238ff501621349023b511d73dd13f10a376b89ea1a1b.js?body=1" for ::1 at 2016-05-25 20:15:35 +1200
+
+
+Started GET "/assets/angular/angular.self-ec90f1bc6b0a1933fd10110a56f5146967f507e38fbbb985ba76b4c9af5bc83a.js?body=1" for ::1 at 2016-05-25 20:15:35 +1200
+
+
+Started GET "/assets/angular-rails-templates.self-f73a25f00ce684992b28562a01665855f2aabcedd405901b89b47873f76ca8d1.js?body=1" for ::1 at 2016-05-25 20:15:35 +1200
+
+
+Started GET "/assets/app.self-2a3bdae7d2e1cda260af4adad22673d19be80f9fe96ae246415548c0b3570fca.js?body=1" for ::1 at 2016-05-25 20:15:35 +1200
+
+
+Started GET "/assets/auth/_login.self-048ea316008d583328015593e6313070e5a531a3b1812e0c4598e463a8dba5a4.js?body=1" for ::1 at 2016-05-25 20:15:35 +1200
+
+
+Started GET "/assets/auth/_register.self-5ceeff06355c690e48819a73f4fc11e9fa569821e485dc28bf5424a48c0c2d22.js?body=1" for ::1 at 2016-05-25 20:15:35 +1200
+
+
+Started GET "/assets/auth/authCtrl.self-8ce2832f88973da3f1a71a09e161ad751ccb957dabcae7f9242e99ab8c3464cd.js?body=1" for ::1 at 2016-05-25 20:15:35 +1200
+
+
+Started GET "/assets/home/_home.self-4046ee3f8a9326f5393fd1afa13abfba5a045536da2f3da1617df1c67c2728f6.js?body=1" for ::1 at 2016-05-25 20:15:35 +1200
+
+
+Started GET "/assets/home/mainCtrl.self-9d0d123f9a5df45a1e8b0bbafc691f469bbcaa054a519de2008ecb973225a9a0.js?body=1" for ::1 at 2016-05-25 20:15:35 +1200
+
+
+Started GET "/assets/nav/_nav.self-b574dbe835f896bce4cff8e853c38e7f6bc56b0e95cb5672db97d1cacb174256.js?body=1" for ::1 at 2016-05-25 20:15:35 +1200
+
+
+Started GET "/assets/application.self-7c370d9536d7d0d6a0f7cd7f9826692acd93e4fb05ba46f7b630b879740343d3.js?body=1" for ::1 at 2016-05-25 20:15:35 +1200
+
+
+Started GET "/assets/posts/posts.self-f0182f4aadcea15d654c0f46d46ff2036a773fdc01a112213dd63de677bc0c49.js?body=1" for ::1 at 2016-05-25 20:15:35 +1200
+
+
+Started GET "/assets/posts/postsCtrl.self-948b225c1af98cbb96b6b1575901c39ab7264c404db5ed57303c156b66ce9235.js?body=1" for ::1 at 2016-05-25 20:15:35 +1200
+
+
+Started GET "/assets/nav/navCtrl.self-705e5f1c55ff0871ba60968661e21d69e651b7daac6c6de7168a83b70e675980.js?body=1" for ::1 at 2016-05-25 20:15:35 +1200
+
+
+Started GET "/assets/posts/_posts.self-032c58f5cf2fd365da6b1558892fd4123a69faefa2b188fd076e8dd2045dfed4.js?body=1" for ::1 at 2016-05-25 20:15:35 +1200
+
+
+Started POST "/users/sign_in.json" for ::1 at 2016-05-25 20:15:35 +1200
+Processing by Devise::SessionsController#create as JSON
+  Parameters: {"user"=>{}, "session"=>{"user"=>{}}}
+Completed 401 Unauthorized in 14ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/posts.json" for ::1 at 2016-05-25 20:15:35 +1200
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (13.6ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mComment Load (5.3ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 28]]
+Completed 200 OK in 206ms (Views: 125.1ms | ActiveRecord: 19.8ms)
+
+
+Started GET "/assets/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" for ::1 at 2016-05-25 20:15:36 +1200
+
+
+Started POST "/posts.json" for ::1 at 2016-05-25 20:15:43 +1200
+Processing by PostsController#create as JSON
+  Parameters: {"title"=>"woot", "link"=>"awds.com", "post"=>{"title"=>"woot", "link"=>"awds.com"}}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in.json" for ::1 at 2016-05-25 20:15:55 +1200
+Processing by Devise::SessionsController#create as JSON
+  Parameters: {"user"=>{"email"=>"dude@dude.com", "password"=>"[FILTERED]"}, "session"=>{"user"=>{"email"=>"dude@dude.com", "password"=>"[FILTERED]"}}}
+  [1m[35mUser Load (7.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["email", "dude@dude.com"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  UPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["last_sign_in_at", "2016-03-22 13:47:52.897011"], ["current_sign_in_at", "2016-05-25 08:15:55.600955"], ["sign_in_count", 3], ["updated_at", "2016-05-25 08:15:55.602027"], ["id", 1]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+Completed 201 Created in 198ms (Views: 0.5ms | ActiveRecord: 9.7ms)
+
+
+Started GET "/posts.json" for ::1 at 2016-05-25 20:15:55 +1200
+Processing by PostsController#index as JSON
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mComment Load (0.1ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?[0m  [["post_id", 28]]
+Completed 200 OK in 11ms (Views: 2.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/posts.json" for ::1 at 2016-05-25 20:16:01 +1200
+Processing by PostsController#create as JSON
+  Parameters: {"title"=>"dope", "link"=>"dopeada", "post"=>{"title"=>"dope", "link"=>"dopeada"}}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (13.0ms)[0m  INSERT INTO "posts" ("link", "title", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["link", "dopeada"], ["title", "dope"], ["user_id", 1], ["created_at", "2016-05-25 08:16:01.465042"], ["updated_at", "2016-05-25 08:16:01.465042"]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35mComment Load (0.1ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."post_id" = ?  [["post_id", 29]]
+Completed 201 Created in 28ms (Views: 1.9ms | ActiveRecord: 14.9ms)
+
+
+Started PUT "/posts/29/upvote.json" for ::1 at 2016-05-25 20:16:03 +1200
+Processing by PostsController#upvote as JSON
+  Parameters: {"id"=>"29"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mPost Load (0.2ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.1ms)[0m  UPDATE "posts" SET "upvotes" = ?, "updated_at" = ? WHERE "posts"."id" = ?  [["upvotes", 1], ["updated_at", "2016-05-25 08:16:03.275588"], ["id", 29]]
+  [1m[36m (326.4ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 339ms (ActiveRecord: 327.8ms)
+
+
+Started PUT "/posts/28/upvote.json" for ::1 at 2016-05-25 20:16:03 +1200
+Processing by PostsController#upvote as JSON
+  Parameters: {"id"=>"28"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 28]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (13.5ms)[0m  [1mUPDATE "posts" SET "upvotes" = ?, "updated_at" = ? WHERE "posts"."id" = ?[0m  [["upvotes", 8], ["updated_at", "2016-05-25 08:16:03.953316"], ["id", 28]]
+  [1m[35m (1.7ms)[0m  commit transaction
+Completed 204 No Content in 26ms (ActiveRecord: 15.5ms)
+
+
+Started PUT "/posts/29/upvote.json" for ::1 at 2016-05-25 20:16:04 +1200
+Processing by PostsController#upvote as JSON
+  Parameters: {"id"=>"29"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mPost Load (0.1ms)[0m  SELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1  [["id", 29]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "posts" SET "upvotes" = ?, "updated_at" = ? WHERE "posts"."id" = ?  [["upvotes", 2], ["updated_at", "2016-05-25 08:16:04.962885"], ["id", 29]]
+  [1m[36m (2.5ms)[0m  [1mcommit transaction[0m
+Completed 204 No Content in 12ms (ActiveRecord: 3.1ms)
